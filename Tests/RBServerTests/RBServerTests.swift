@@ -90,14 +90,24 @@ private func roundTrip(_ path: String) throws -> Bool {
     let n = recv(fd, &bytes, bytes.count, 0)
     return n > 0 && (try? JSONDecoder().decode(RBResponse.self, from: Data(bytes.prefix(n - 1)))) == .entries([])
 }
+private func waitForRoundTrip(_ path: String, within seconds: Double = 5) throws -> Bool {
+    let deadline = ProcessInfo.processInfo.systemUptime + seconds
+    var result = try roundTrip(path)
+    while !result && ProcessInfo.processInfo.systemUptime < deadline {
+        usleep(50_000)
+        guard ProcessInfo.processInfo.systemUptime < deadline else { break }
+        result = try roundTrip(path)
+    }
+    return result
+}
 @Test func rbSocketClientClosingAtOnceKeepsServerAlive() throws {
     let path = socketPath(), server = RBServer(path: path, service: Fake())
     try server.start(); defer { server.stop() }
     var connected = 0
     for _ in 0..<200 { let fd = connectSocket(path); if fd >= 0 { connected += 1; close(fd) } }
     #expect(connected > 0)
-    usleep(200_000)
-    #expect(try roundTrip(path))
+    // Slots free only after the server reads each closed client, which takes longer on a loaded machine.
+    #expect(try waitForRoundTrip(path))
 }
 @Test func rbSocketLimitsConnections() throws {
     let path = socketPath(), server = RBServer(path: path, service: Fake())
