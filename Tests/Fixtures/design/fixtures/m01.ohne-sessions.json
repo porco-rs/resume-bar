@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 2,
+  "now": "2026-11-04T12:00:00+01:00",
+  "context": {
+    "projectId": "prj_vesper_ios",
+    "source": "ghostty",
+    "cwd": "/Users/mira/projects/vesper_ios",
+    "windowIndex": 3
+  },
+  "settings": {
+    "commands": {
+      "codex": "codex resume {id}",
+      "claude": "claude --resume {id}"
+    },
+    "newCommands": {
+      "codex": "codex",
+      "claude": "claude"
+    },
+    "commandsSource": "~/.zshrc",
+    "terminal": {
+      "default": "ghostty",
+      "alternate": "terminal"
+    },
+    "hotkeys": {
+      "popover": "⇧⌘Space",
+      "task": "⌥⌘N",
+      "pin": "⇧⌘R"
+    },
+    "archiveDays": 3,
+    "cleanupThreshold": 3,
+    "importDays": 14,
+    "watch": {
+      "claude": "~/.claude/projects",
+      "codex": "~/.codex/sessions"
+    },
+    "ai": {
+      "mcp": true,
+      "cliPath": "~/.local/bin/rb",
+      "clients": {
+        "claude": "verbunden",
+        "codex": "verbunden"
+      }
+    }
+  },
+  "permissions": {
+    "accessibility": true,
+    "automation": {
+      "ghostty": "granted",
+      "terminal": "unknown"
+    }
+  },
+  "import": {
+    "sessions": 41,
+    "days": 14,
+    "byProject": {
+      "parkway-portal": 18,
+      "vesper_ios": 13,
+      "devboardkit": 5,
+      "weitere 5 projekte": 5
+    }
+  },
+  "projects": [],
+  "entries": [],
+  "sessions": [],
+  "windows": {
+    "open": 1,
+    "closable": 0
+  },
+  "justEnded": [],
+  "changes": [],
+  "_screen": "M01",
+  "_state": "ohne-sessions",
+  "_title": "resume · noch nichts da"
+}

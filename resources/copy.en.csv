@@ -1,0 +1,423 @@
+key,text
+m01.title,Resume Bar
+m01.mode.resume,resume ›
+m01.mode.aufgabe,goal ›
+m01.mode.projekt,project ›
+m01.search.placeholder.resume,type …
+m01.search.placeholder.aufgabe,type a new goal …
+m01.search.placeholder.projekt,filter projects …
+m01.search.label.resume,"Search threads, resume mode"
+m01.search.label.aufgabe,"New goal, goal mode"
+m01.search.label.projekt,"Filter projects, project mode"
+m01.legend.project,@project
+m01.legend.tool,cc cx tool
+m01.legend.wartet,? waiting
+m01.legend.erledigt,! done
+m01.legend.archive,/a archive
+m01.group.hits,matches
+m01.group.archive,archive
+m01.group.similar,similar
+m01.project.here,here
+project.none,no project
+by.user,you
+by.claude,Claude Code
+by.codex,Codex
+chip.deadline,by {date}
+m01.session.pending,(id pending)
+m01.row.running,running
+m01.row.open,opening in {app} …
+m01.row.focus,→ {app} window {window} to front
+m01.row.not_resumable,can't resume · history missing
+m01.row.status,{from} → {to}
+m01.row.started,◇ → ● · thread started
+m01.row.added,◇ newly saved
+m01.row.sessions,{count} sessions · ⌘↓
+m01.row.by_ai,created by {tool}
+m01.row.archived,archive · done
+status.offen,open
+status.wartet,waiting
+status.erledigt,done
+m01.detail.resumes,resumed {count}×
+m01.detail.new,new
+m01.detail.sessions,{count} sessions
+m01.detail.session_of,session {i} of {n}
+m01.detail.tty,running · {tty}
+m01.detail.tokens,{n}M tokens
+m01.detail.project,{strands} threads · {tasks} goals
+m01.detail.project_due,next deadline: {title} · {date}
+m01.detail.project_nodue,no deadline in the next 2 days
+m01.detail.task,{project} · ◇ goal · by {by} · {date}
+m01.detail.task_due,by {date}
+m01.detail.task_nodue,no deadline
+m01.detail.new_task,new · ◇ goal in {project}
+m01.detail.quoted,"""{text}"""
+m01.detail.new_task_due,new · ◇ goal in {project} · by {date}
+m01.edit.title_ph,title …
+m01.edit.deadline_label,by ›
+m01.edit.deadline_ph,fri · tomorrow · 2026-11-14 · empty = none
+m01.edit.project_label,project ›
+m01.edit.project_ph,@project
+m01.banner.head,just ended · {tool} {project} · {ago}
+m01.banner.label,title ›
+m01.banner.hint,⇥ accept · type · ↵ name · esc later
+m01.banner.accept,⇥ accept
+m01.banner.type,type
+m01.banner.name,↵ name
+m01.banner.later,esc later
+m01.strip.head,since last time
+m01.strip.hint,↵ ok · ↑↓ select · ⌘⌫ discard
+m01.duehint.one,◇ {title} · {date}
+m01.duehint.many,{n} goals due · first {title} {date}
+m01.duehint.action,show
+m01.warn.text,{open} Terminal windows open · {closable} without a running session
+m01.warn.action,⌘⇧W close
+m01.empty.none,No threads yet.
+m01.empty.none_detail,Watching {claude} and {codex}. Start a session with codex or claude; it appears here immediately.
+m01.empty.search,"No thread for “{query}”, even in the archive."
+m01.empty.new_codex,↵  new thread in {project}
+m01.empty.new_claude,⇧↵ new thread in {project}
+m01.empty.no_context,Use @project to choose where to start a new thread.
+m01.empty.tasks,No open goals. Type to add one.
+m01.toast.open,"{app} › new window
+$ cd {cwd}
+$ {cmd}"
+m01.toast.focus,"Running in {app} · window {window} · {tty}
+brought to front, no second instance"
+m01.toast.not_resumable,"History not found: {path}
+⌘⌫ marks the thread as done."
+m01.toast.new,"{app} › new window
+$ cd {cwd}
+$ {cmd}"
+m01.toast.copied,"Command copied
+{cmd}"
+m01.toast.status,Status: {status} · ⌘Z undo
+m01.toast.archived,"Done + archived: {title}
+⌘Z undo"
+m01.toast.task_done,"◇ done: {title}
+⌘Z undo"
+m01.toast.title,Title saved · ⌘Z undo
+m01.toast.named,Named in {project}: {title}
+m01.toast.task_added,◇ saved in {project} · ⌘Z undo
+m01.toast.task_added_due,◇ saved in {project} · by {date} · ⌘Z undo
+m01.toast.deadline,Deadline {date} · ⌘Z undo
+m01.toast.deadline_removed,Deadline removed · ⌘Z undo
+m01.toast.deadline_invalid,"“{text}” isn't a date · e.g. fri, tomorrow, 2026-11-14"
+m01.toast.project_unknown,No project “{text}”
+m01.toast.moved,◇ moved to {project} · ⌘Z undo
+m01.toast.cycle_task,"Goals have no status · ↵ starts, ⌘⌫ marks done"
+m01.toast.one_session,This thread has only one session
+m01.toast.changes_ok,Changes accepted
+m01.toast.change_reverted,Discarded: {title}
+m01.toast.cleanup,"{n} windows closed · all threads resumable
+⌘Z reopens them"
+m01.toast.undo,Undone: {label}
+m01.toast.nothing_undo,Nothing to undo
+m01.toast.close,Popover closes
+undo.start,Start
+undo.add,Goal
+undo.title,Title
+undo.deadline,Deadline
+undo.project,Project
+undo.name,Name
+undo.status,Status
+undo.archive,Done
+undo.cleanup,Clean up
+m01.hint.resume,resume
+m01.hint.focus,to window
+m01.hint.start,start
+m01.hint.toggle,open/close
+m01.hint.copy,command
+m01.hint.title,title
+m01.hint.deadline,deadline
+m01.hint.project,project
+m01.hint.sessions,sessions
+m01.hint.mode,mode
+m01.hint.help,help
+m01.hint.save,save
+m01.hint.cancel,cancel
+m01.hint.close,close
+m01.hint.suggest,suggestion
+m01.hint.name,name
+m01.hint.later,later
+m01.hint.complete,complete
+m01.hint.chip,remove chip
+m01.hint.new_codex,codex
+m01.hint.new_claude,claude code
+m01.hint.back,back
+m01.hint.cleanup,clean up
+m01.hint.done,done
+m01.hint.undo,undo
+m01.hint.keep,save
+m01.hint.keep_start,save + start
+m01.hint.clear,clear
+m01.hint.ok,ok
+m01.hint.revert,back
+m01o1.title,Keyboard shortcuts
+m01o1.mode,switch mode (empty field)
+m01o1.resume,resume · start · save
+m01o1.claude,start with the other tool
+m01o1.terminal,open in Terminal.app
+m01o1.keep_start,save goal and start now
+m01o1.copy,copy command
+m01o1.deadline,set deadline · empty = remove
+m01o1.complete,complete · assign project
+m01o1.status,status: open → waiting → done
+m01o1.sessions,show / hide sessions
+m01o1.done,done + archive
+m01o1.undo,undo
+m01o1.cleanup,clean up windows
+m01o1.prefix,prefixes (resume mode)
+m01o1.due,deadline in goal mode
+m01o1.due_keys,by fri · by 2026-11-14
+m01o1.esc,back · close popover
+m01s1.title,Name thread
+m01s1.head,name · {project} · {short}
+m01s1.label,title ›
+m01s1.source.selection,detected from: {text}
+m01s1.source.window,from the active window
+m01s1.hint.save,name
+m01s1.done,Named in {project}: {title}
+m01s1.undo,undo
+m01s1.none.title,No session in selection
+m01s1.none.text,"Select a line with codex or claude, or press ⇧⌘R without a selection in the session window."
+m01s1.closed,Panel closes
+m00.title.berechtigung,resume · one permission
+m00.perm.ax.title,Accessibility
+m00.perm.ax.text,so ⇧⌘R can read the selected line in Terminal
+m00.perm.allow,Allow
+m00.perm.granted,allowed
+m00.perm.ae.title,"Automation: Ghostty, Terminal"
+m00.perm.ae.text,so ↵ can open and bring windows to front
+m00.perm.ae.later,macOS asks on the first ↵
+m00.foot.later,later
+m00.foot.allow,↵ allow
+m00.foot.next,↵ next
+m00.title.eingerichtet,resume · set up
+m00.line.commands,Resume commands
+m00.line.import,{count} sessions from the last {days} days
+m00.line.terminal,Terminal: {app}
+m00.line.terminal_sub,⌥↵ opens {alt} instead
+m00.line.terminal_only,Ghostty also works if installed
+m00.line.ai,rb set up
+m00.line.ai_sub,Claude Code and Codex can read and write goals in their own project on request · {path}
+m00.line.hotkey,Shortcut {key}
+m00.line.hotkey_sub,{task} new goal · {pin} names the selected session in Terminal
+m00.foot.settings,settings
+m00.foot.go,↵ go
+m02.title,Settings
+m02.cmd.codex,Codex command
+m02.cmd.claude,Claude Code command
+m02.cmd.hint,"{id} is replaced by the session ID · runs in your shell, aliases work too"
+list.joiner," and "
+filter.waiting,? waiting
+filter.done,! done
+filter.archive,/a archive
+m02.terminal,Terminal
+m02.terminal.hint,⌥↵ uses the other one
+m02.hk.popover,Open popover
+m02.hk.popover_hint,always opens in resume mode
+m02.hk.task,New goal
+m02.hk.task_hint,opens the popover directly in goal mode
+m02.hk.pin,Name thread
+m02.hk.pin_hint,only active while Ghostty or Terminal is in front
+m02.hk.change,change
+m02.hk.recording,Press keys … esc
+m02.archive,Archive
+m02.archive.after,after
+m02.archive.unit,"days, if done or untitled"
+m02.archive.a11y,Archive after days
+m02.cleanup,Window hint
+m02.cleanup.after,from
+m02.cleanup.unit,windows without a running session
+m02.cleanup.a11y,Window hint threshold
+m02.ai,AI access
+m02.ai.on,on
+m02.ai.off,off
+m02.ai.hint,CLI {path}
+m02.ai.clients,Claude Code {claude} · Codex {codex}
+m02.watch,Watching
+time.short.now,now
+time.short.min,{n}m
+time.short.hour,{n}h
+time.long.now,just now
+time.long.min,{n} min ago
+time.long.hour,{n} hr ago
+time.weekday.0,Sun
+time.weekday.1,Mon
+time.weekday.2,Tue
+time.weekday.3,Wed
+time.weekday.4,Thu
+time.weekday.5,Fri
+time.weekday.6,Sat
+due.today,today
+due.tomorrow,tomorrow
+due.yesterday,yesterday
+a11y.popover,Resume Bar
+a11y.list.resume,Threads
+a11y.list.aufgabe,Goals
+a11y.list.projekt,Projects
+a11y.strang,"{tool}, {project}, {title}, {status}, {ago}, {due}"
+a11y.task,"Goal, {project}, {title}, {due}"
+a11y.session,"Session {tool}, {title}, {ago}"
+a11y.project,"Project {project}, {strands} threads, {tasks} goals, {state}"
+a11y.open,expanded
+a11y.closed,collapsed
+a11y.due,Deadline {date}
+a11y.nodue,no deadline
+a11y.overdue,overdue
+a11y.context,"Current project, ⌫ removes"
+a11y.strip,Changes since last time
+a11y.banner,Session just ended
+a11y.banner_input,Thread title
+a11y.edit_input,Edit title
+a11y.panel_input,Title
+a11y.hint,"{label}, key {key}"
+menubar.a11y,Resume Bar
+menubar.a11y_dot,"Resume Bar, new changes"
+menubar.a11y_overdue,"Resume Bar, deadline overdue"
+infoplist.NSAppleEventsUsageDescription,Resume Bar opens sessions in Ghostty or Terminal and brings running windows to the front.
+m01.toast.automation_denied,Can't control {app} · System Settings › Automation
+m01.toast.terminal_failed,{app} won't start · {reason}
+menu.settings,Settings …
+menu.quit,Quit Resume Bar
+m01.toast.folder_missing,"Folder not found: {path}
+Command copied."
+a11y.list.ziel,Goals
+m00.line.ai_off,AI access off
+m00.line.ai_off_sub,"turn on in settings (⌘,)"
+m00.line.ai_missing,rb not set up
+m02.ai.unreachable,rb can't reach the app; access could not be opened
+m02.ai.not_removed,Could not remove {path}
+m02.ai.failed,Could not create {path}; rb not linked
+m02.ai.other,{paths} also named rb; PATH order decides
+m02.ai.taken,{path} is occupied; rb not linked
+m01.legend.symbols,◇ open · ● started · ◐ waiting · ○ done
+m01.mode.ziel,goal ›
+m01.search.label.ziel,"New goal, goal mode"
+m01.search.placeholder.ziel,type a new goal …
+m01.toast.entry_save_failed,Could not save or start the goal.
+m01o1.goal,toggle /goal
+m01o1.edit_title,edit title
+m01o1.chip,remove chip
+m00.line.folder,Goals without a project start in {path}
+m00.line.folder_sub,"change in settings (⌘,)"
+m02.start_folder,Start folder
+m02.start_folder_hint,Goals without a project start here · empty = folder with most projects
+m02.default_tool,Default tool
+m01.toast.project_ambiguous,multiple: {projects} · ⇥ selects the first
+m01.start.codex,Codex
+m01.start.claude,Claude
+m01.start.goal,as /goal
+m01.empty.start_folder,the start folder
+m01o1.move,select
+trainer.exit_back,esc back
+trainer.exit,esc exits
+trainer.finish,↵ finish
+trainer.practice,practice
+m01.hint.practice,practice
+trainer.progress,practice · {n} of {total} · practice data only
+trainer.final_progress,final round · {n} of {total} · practice data only
+trainer.skip,⌘T skip
+trainer.weitermachen,Resume
+trainer.weitermachen.1,press: brings the window from anywhere
+trainer.weitermachen.2,press: resumes the selected work
+trainer.weitermachen.way,{popover} · ↵
+trainer.finden,Find a thread
+trainer.finden.1,type: the list filters immediately
+trainer.finden.2,press: resumes the thread
+trainer.finden.way,{popover} · 2–4 characters · ↵
+trainer.input.find,fence
+trainer.input.text,Text
+trainer.input.due,"by fri "
+trainer.merken,Save a goal
+trainer.merken.1,press: opens goal ›
+trainer.merken.2,type: your goal
+trainer.merken.3,press: saves it in the project
+trainer.merken.way,{task} · text · ↵
+trainer.deadline,Goal with deadline
+trainer.deadline.1,press: opens goal ›
+trainer.deadline.2,type: your goal
+trainer.deadline.3,type after it
+trainer.deadline.4,press: saves it with a date
+trainer.deadline.way,{task} · text by fri · ↵
+trainer.anfangen,Start a goal
+trainer.anfangen.1,down to the row with ◇
+trainer.anfangen.2,press: starts the session
+trainer.anfangen.way,"↓ to ◇ · ↵, with ⌘G first for /goal"
+trainer.ueberblicken,Expand project
+trainer.ueberblicken.1,down to the map row
+trainer.ueberblicken.2,press: expands it
+trainer.ueberblicken.way,↓ to project · ↵
+trainer.erledigen,Mark done
+trainer.erledigen.1,press: marks the selected row done
+trainer.erledigen.way,"⌘⌫, in the real list ⌘Z undoes it"
+trainer.abschluss_finden,Find Paint fence and resume it.
+trainer.abschluss_deadline,Save a goal by Friday.
+trainer.abschluss_anfangen,Start Water plants.
+trainer.final_hint,No hint. It appears after a wrong key.
+trainer.success_way,✓ Done. Your way: {way}
+trainer.success_free,✓ Done without a hint.
+trainer.success_tipped,✓ Done.
+trainer.next_lesson,↵ next lesson
+trainer.to_final,↵ final round
+trainer.next_task,↵ next
+trainer.end_result,"All ways completed, {n} of 3 without a hint."
+trainer.end_partial,"{done} of 10 completed, {n} of 3 without a hint."
+trainer.end_more,In Terminal {pin} names a thread. In the list ⌘/ shows all keys.
+trainer.wrong.resume,That would resume the work. Nothing happened.
+trainer.wrong.start,That would start the session. Nothing happened.
+trainer.wrong.add,That would save a goal. Nothing happened.
+trainer.wrong.archive,That would mark the row done. Nothing happened.
+trainer.wrong.other,That does something else. Nothing happened.
+trainer.wrong.open,The window is already open. Nothing happened.
+trainer.wrong.first,Do the step marked ▸ first. Nothing happened.
+m01.search.label,Search sessions
+m01.row.untitled,untitled
+m01.strip.ok,↵ ok
+m01.strip.pick,↑↓ select
+m01.strip.revert,⌘⌫ discard
+m01.hint.discard,discard
+undo.acceptChanges,Accept changes
+undo.revertChange,Undo change
+rb.help,"rb – goals in Resume Bar
+AI may use ls, add and done only on the user's request, in its own project.
+
+  rb ls [-a] [-p name]
+  rb add ""text"" [--by word] [-p name]
+  rb start <id|text> [--cc] [-p name]
+  rb done [id|text] [-p name]
+  rb due <id|text> <word|-> [-p name]
+  rb export
+  rb --help"
+rb.invalidSocket,Invalid socket path.
+rb.sandbox,The sandbox blocks access to Resume Bar. Retry the command with permission outside the sandbox.
+rb.socketFailed,Could not open socket.
+rb.notRunning,Resume Bar is not running.
+rb.connectionFailed,Could not connect to Resume Bar.
+rb.invalidResponse,Invalid response from Resume Bar.
+rb.weekday.sun,Sun
+rb.weekday.mon,Mon
+rb.weekday.tue,Tue
+rb.weekday.wed,Wed
+rb.weekday.thu,Thu
+rb.weekday.fri,Fri
+rb.weekday.sat,Sat
+rb.datePrefix,by
+rb.confirmation,appears in Resume Bar
+rb.done,"○ done: "
+rb.started,"● started: "
+rb.remembered,"◇ saved: "
+rb.empty,No open entries.
+rb.notFound,Not found.
+rb.foreignProject,This only works in your own project.
+rb.invalidDeadline,"I don't understand that date. Examples: fri, tomorrow, 2026-11-14."
+rb.ambiguous,Multiple matches:
+rb.notAllowed,That is not allowed.
+rb.badRequest,Invalid request.
+rb.accessOff,"AI access is off. Turn it on in settings (⌘,)."
+rb.callerUnknown,Resume Bar could not identify the caller. Nothing changed.
+rb.storeFailed,Resume Bar could not read or save the data.
+rb.startFailed,Could not start the session.
+m00.line.ai_path,check in Terminal: command -v rb
+m00.line.ai_disable,turn off
+m00.line.ai_enable,turn on

@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 2,
+  "now": "2026-11-04T12:00:00+01:00",
+  "context": {
+    "projectId": "prj_garten",
+    "source": "ghostty",
+    "cwd": "/practice/garten",
+    "windowIndex": 1
+  },
+  "settings": {
+    "commands": {
+      "codex": "codex resume {id}",
+      "claude": "claude --resume {id}"
+    },
+    "newCommands": {
+      "codex": "codex",
+      "claude": "claude"
+    },
+    "commandsSource": "",
+    "terminal": {
+      "default": "ghostty",
+      "alternate": "terminal"
+    },
+    "hotkeys": {
+      "popover": "⇧⌘Space",
+      "task": "⌥⌘N",
+      "pin": "⇧⌘R"
+    },
+    "archiveDays": 3,
+    "cleanupThreshold": 3,
+    "importDays": 14,
+    "watch": {
+      "claude": "/practice/claude",
+      "codex": "/practice/codex"
+    },
+    "ai": {
+      "mcp": true,
+      "cliPath": "~/.local/bin/rb",
+      "clients": {
+        "claude": "verbunden",
+        "codex": "verbunden"
+      }
+    }
+  },
+  "permissions": {
+    "accessibility": true,
+    "automation": {
+      "ghostty": "granted",
+      "terminal": "unknown"
+    }
+  },
+  "projects": [
+    {
+      "id": "prj_garten",
+      "name": "garten",
+      "rootPath": "/practice/garten"
+    },
+    {
+      "id": "prj_karte",
+      "name": "karte",
+      "rootPath": "/practice/karte"
+    }
+  ],
+  "entries": [
+    {
+      "id": "laufend",
+      "projectId": "prj_karte",
+      "title": "Beete planen",
+      "status": "offen",
+      "createdBy": "user",
+      "createdAt": "2026-11-04T10:00:00.000Z",
+      "updatedAt": "2026-11-04T10:00:00.000Z",
+      "schemaVersion": 2
+    },
+    {
+      "id": "fortsetzen",
+      "projectId": "prj_garten",
+      "title": "Saatgut sortieren",
+      "status": "offen",
+      "createdBy": "user",
+      "createdAt": "2026-11-04T10:00:00.000Z",
+      "updatedAt": "2026-11-04T10:00:00.000Z",
+      "schemaVersion": 2
+    },
+    {
+      "id": "offen",
+      "projectId": "prj_garten",
+      "title": "Pflanzen gießen",
+      "status": "offen",
+      "createdBy": "user",
+      "createdAt": "2026-11-04T10:00:00.000Z",
+      "updatedAt": "2026-11-04T10:00:00.000Z",
+      "schemaVersion": 2
+    },
+    {
+      "id": "offen2",
+      "projectId": "prj_karte",
+      "title": "Karte zeichnen",
+      "status": "offen",
+      "createdBy": "user",
+      "createdAt": "2026-11-04T10:00:00.000Z",
+      "updatedAt": "2026-11-04T10:00:00.000Z",
+      "schemaVersion": 2
+    },
+    {
+      "id": "suchen",
+      "projectId": "prj_karte",
+      "title": "Zaun streichen",
+      "status": "offen",
+      "createdBy": "user",
+      "createdAt": "2026-11-04T10:00:00.000Z",
+      "updatedAt": "2026-11-04T10:00:00.000Z",
+      "schemaVersion": 2
+    }
+  ],
+  "sessions": [
+    {
+      "id": "practice_session_0",
+      "tool": "codex",
+      "nativeId": "practice-0",
+      "entryId": "laufend",
+      "projectId": "prj_karte",
+      "cwd": "/practice/karte",
+      "transcriptPath": "/practice/session",
+      "startedAt": "2026-11-04T10:00:00.000Z",
+      "lastActivityAt": "2026-11-04T10:00:00.000Z",
+      "resumeCount": 0,
+      "tokens": null,
+      "firstPrompt": "Übung",
+      "threadName": null,
+      "suggestedTitle": "Übung",
+      "resumable": true,
+      "live": {
+        "running": true,
+        "pid": null,
+        "tty": null,
+        "terminalApp": "ghostty",
+        "windowIndex": null
+      },
+      "createdAt": "2026-11-04T10:00:00.000Z",
+      "updatedAt": "2026-11-04T10:00:00.000Z",
+      "schemaVersion": 2
+    },
+    {
+      "id": "practice_session_1",
+      "tool": "codex",
+      "nativeId": "practice-1",
+      "entryId": "fortsetzen",
+      "projectId": "prj_garten",
+      "cwd": "/practice/garten",
+      "transcriptPath": "/practice/session",
+      "startedAt": "2026-11-04T10:00:00.000Z",
+      "lastActivityAt": "2026-11-04T10:00:00.000Z",
+      "resumeCount": 0,
+      "tokens": null,
+      "firstPrompt": "Übung",
+      "threadName": null,
+      "suggestedTitle": "Übung",
+      "resumable": true,
+      "live": {
+        "running": false,
+        "pid": null,
+        "tty": null,
+        "terminalApp": null,
+        "windowIndex": null
+      },
+      "createdAt": "2026-11-04T10:00:00.000Z",
+      "updatedAt": "2026-11-04T10:00:00.000Z",
+      "schemaVersion": 2
+    },
+    {
+      "id": "practice_session_2",
+      "tool": "codex",
+      "nativeId": "practice-2",
+      "entryId": "suchen",
+      "projectId": "prj_karte",
+      "cwd": "/practice/karte",
+      "transcriptPath": "/practice/session",
+      "startedAt": "2026-11-04T10:00:00.000Z",
+      "lastActivityAt": "2026-11-04T10:00:00.000Z",
+      "resumeCount": 0,
+      "tokens": null,
+      "firstPrompt": "Übung",
+      "threadName": null,
+      "suggestedTitle": "Übung",
+      "resumable": true,
+      "live": {
+        "running": false,
+        "pid": null,
+        "tty": null,
+        "terminalApp": null,
+        "windowIndex": null
+      },
+      "createdAt": "2026-11-04T10:00:00.000Z",
+      "updatedAt": "2026-11-04T10:00:00.000Z",
+      "schemaVersion": 2
+    }
+  ],
+  "windows": {
+    "open": 1,
+    "closable": 0
+  },
+  "justEnded": [],
+  "changes": [],
+  "_screen": "M01",
+  "_state": "kontext",
+  "_title": "Übung"
+}

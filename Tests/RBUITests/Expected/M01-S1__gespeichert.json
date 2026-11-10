@@ -1,0 +1,6 @@
+{
+  "inner" : "<div class=\"p-done\"><span><span class=\"acc\">✓<\/span> benannt in devboardkit: devtool-Blockaden untersuchen<\/span><button type=\"button\" data-act=\"panelUndo\">rückgängig<\/button><\/div>",
+  "root" : "<div class=\"pop panel\" data-root=\"\" data-screen=\"M01-S1\" data-state=\"gespeichert\" role=\"dialog\" aria-label=\"Session merken\"><h1 class=\"sr\">Session merken<\/h1><div class=\"p-done\"><span><span class=\"acc\">✓<\/span> benannt in devboardkit: devtool-Blockaden untersuchen<\/span><button type=\"button\" data-act=\"panelUndo\">rückgängig<\/button><\/div><\/div>",
+  "screen" : "M01-S1",
+  "state" : "gespeichert"
+}

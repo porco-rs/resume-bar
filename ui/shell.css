@@ -1,0 +1,15 @@
+/* App shell overrides. app.css stays a 1:1 copy of the prototype.
+   Each web view carries <html data-surface="popover|panel|settings"> (WebHost user script).
+   popover, settings: the native NSPopover / NSWindow draws the frame, so the prototype's own border,
+   corner radius and shadow are switched off. panel: borderless NSPanel; the page keeps its border and
+   radius, the window draws the shadow. */
+html, body { background: transparent; }
+[data-surface="popover"] .pop,
+[data-surface="settings"] .pop { border-color: transparent; box-shadow: none; }
+[data-surface="settings"] .pop { max-height: none; }
+[data-surface="panel"] .pop { box-shadow: none; max-height: none; }
+[data-surface="panel"] .field input.p::selection { background: var(--color-accent-soft); color: var(--color-text-selected); }
+[data-surface="settings"] body { background: var(--color-bg); }
+
+.strip-act,.banner-act{all:unset;cursor:pointer}
+.strip-act:hover,.banner-act:hover{color:var(--color-accent)}

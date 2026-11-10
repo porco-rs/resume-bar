@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- Resume Bar app icon, small sizes (16/32 px): one card, two thick tabs, bold prompt; no back cards or glow. -->
+  <rect x="100" y="100" width="824" height="824" rx="185" fill="#121a15"/>
+  <rect x="664" y="300" width="160" height="190" rx="40" fill="#e08a63"/>
+  <rect x="664" y="520" width="160" height="190" rx="40" fill="#10c48f"/>
+  <rect x="180" y="260" width="540" height="520" rx="70" fill="#121a15" stroke="#4fd17a" stroke-width="44"/>
+  <path d="M300 410 L430 520 L300 630" fill="none" stroke="#4fd17a" stroke-width="80" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M480 630 H600" fill="none" stroke="#4fd17a" stroke-width="80" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- Resume Bar app icon „Register“: the phone book of sessions — stacked session cards with index
+       tabs in the tool colors (Claude #e08a63, Codex #10c48f), the menu bar prompt ›_ on the front card.
+       Small sizes (16/32 px) use AppIcon-small.svg. -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b2620"/>
+      <stop offset="1" stop-color="#0b0f0d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.42" cy="0.58" r="0.42">
+      <stop offset="0" stop-color="#4fd17a" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#4fd17a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="100" y="100" width="824" height="824" rx="185" fill="url(#bg)"/>
+  <rect x="100" y="100" width="824" height="824" rx="185" fill="url(#glow)"/>
+  <rect x="101.5" y="101.5" width="821" height="821" rx="184" fill="none" stroke="#2e3a32" stroke-width="3"/>
+  <!-- back cards -->
+  <rect x="274" y="286" width="456" height="420" rx="48" fill="#1c2721" stroke="#3a4b40" stroke-width="7"/>
+  <rect x="242" y="320" width="456" height="420" rx="48" fill="#202c25" stroke="#43564a" stroke-width="7"/>
+  <!-- index tabs, attached to the front card -->
+  <rect x="664" y="384" width="112" height="124" rx="26" fill="#e08a63"/>
+  <rect x="664" y="526" width="112" height="124" rx="26" fill="#10c48f"/>
+  <!-- front card -->
+  <rect x="208" y="354" width="470" height="430" rx="50" fill="#111915" stroke="#4fd17a" stroke-width="10"/>
+  <path d="M300 496 L398 572 L300 648" fill="none" stroke="#4fd17a" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M446 648 H566" fill="none" stroke="#4fd17a" stroke-width="50" stroke-linecap="round"/>
+</svg>

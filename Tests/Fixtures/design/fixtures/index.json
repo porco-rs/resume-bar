@@ -1,0 +1,254 @@
+[
+  {
+    "key": "M00.berechtigung",
+    "screen": "M00",
+    "state": "berechtigung",
+    "title": "Erster Start: eine Freigabe",
+    "file": "m00.berechtigung.json"
+  },
+  {
+    "key": "M00.eingerichtet",
+    "screen": "M00",
+    "state": "eingerichtet",
+    "title": "Erster Start: eingerichtet",
+    "file": "m00.eingerichtet.json"
+  },
+  {
+    "key": "M01.kontext",
+    "screen": "M01",
+    "state": "kontext",
+    "title": "resume · Öffnen im Kontext (Standard)",
+    "file": "m01.kontext.json"
+  },
+  {
+    "key": "M01.ohne-kontext",
+    "screen": "M01",
+    "state": "ohne-kontext",
+    "title": "resume · kein Terminal vorne",
+    "file": "m01.ohne-kontext.json"
+  },
+  {
+    "key": "M01.ohne-sessions",
+    "screen": "M01",
+    "state": "ohne-sessions",
+    "title": "resume · noch nichts da",
+    "file": "m01.ohne-sessions.json"
+  },
+  {
+    "key": "M01.suche",
+    "screen": "M01",
+    "state": "suche",
+    "title": "resume · unscharf suchen",
+    "file": "m01.suche.json"
+  },
+  {
+    "key": "M01.vervollstaendigen",
+    "screen": "M01",
+    "state": "vervollstaendigen",
+    "title": "resume · Projekt vervollständigen",
+    "file": "m01.vervollstaendigen.json"
+  },
+  {
+    "key": "M01.praefixe",
+    "screen": "M01",
+    "state": "praefixe",
+    "title": "resume · Präfixe als Chips",
+    "file": "m01.praefixe.json"
+  },
+  {
+    "key": "M01.leer",
+    "screen": "M01",
+    "state": "leer",
+    "title": "resume · kein Treffer: neuer Strang",
+    "file": "m01.leer.json"
+  },
+  {
+    "key": "M01.oeffnet",
+    "screen": "M01",
+    "state": "oeffnet",
+    "title": "resume · ↵ öffnet neues Fenster",
+    "file": "m01.oeffnet.json"
+  },
+  {
+    "key": "M01.fokus",
+    "screen": "M01",
+    "state": "fokus",
+    "title": "resume · ↵ holt laufendes Fenster",
+    "file": "m01.fokus.json"
+  },
+  {
+    "key": "M01.fehler",
+    "screen": "M01",
+    "state": "fehler",
+    "title": "resume · Strang nicht fortsetzbar",
+    "file": "m01.fehler.json"
+  },
+  {
+    "key": "M01.sessions",
+    "screen": "M01",
+    "state": "sessions",
+    "title": "resume · ⌘↓ Sessions eines Strangs",
+    "file": "m01.sessions.json"
+  },
+  {
+    "key": "M01.gerade-beendet",
+    "screen": "M01",
+    "state": "gerade-beendet",
+    "title": "resume · gerade beendet: benennen?",
+    "file": "m01.gerade-beendet.json"
+  },
+  {
+    "key": "M01.titel-bearbeiten",
+    "screen": "M01",
+    "state": "titel-bearbeiten",
+    "title": "resume · ⌘P Titel in der Zeile",
+    "file": "m01.titel-bearbeiten.json"
+  },
+  {
+    "key": "M01.status",
+    "screen": "M01",
+    "state": "status",
+    "title": "resume · ⌘S Status",
+    "file": "m01.status.json"
+  },
+  {
+    "key": "M01.erledigt",
+    "screen": "M01",
+    "state": "erledigt",
+    "title": "resume · ⌘⌫ erledigt",
+    "file": "m01.erledigt.json"
+  },
+  {
+    "key": "M01.aufraeumen",
+    "screen": "M01",
+    "state": "aufraeumen",
+    "title": "resume · Fenster aufräumen",
+    "file": "m01.aufraeumen.json"
+  },
+  {
+    "key": "M01.seit-zuletzt",
+    "screen": "M01",
+    "state": "seit-zuletzt",
+    "title": "resume · seit zuletzt (AI-Änderungen)",
+    "file": "m01.seit-zuletzt.json"
+  },
+  {
+    "key": "M01.faellig",
+    "screen": "M01",
+    "state": "faellig",
+    "title": "resume · Deadline fällig und überfällig",
+    "file": "m01.faellig.json"
+  },
+  {
+    "key": "M01.lang",
+    "screen": "M01",
+    "state": "lang",
+    "title": "resume · lange Namen, volle Liste",
+    "file": "m01.lang.json"
+  },
+  {
+    "key": "M01.aufgabe",
+    "screen": "M01",
+    "state": "aufgabe",
+    "title": "aufgabe · was ansteht",
+    "file": "m01.aufgabe.json"
+  },
+  {
+    "key": "M01.aufgabe-leer",
+    "screen": "M01",
+    "state": "aufgabe-leer",
+    "title": "aufgabe · keine offenen Aufgaben",
+    "file": "m01.aufgabe-leer.json"
+  },
+  {
+    "key": "M01.aufgabe-neu",
+    "screen": "M01",
+    "state": "aufgabe-neu",
+    "title": "aufgabe · tippen mit @ und bis",
+    "file": "m01.aufgabe-neu.json"
+  },
+  {
+    "key": "M01.aufgabe-gemerkt",
+    "screen": "M01",
+    "state": "aufgabe-gemerkt",
+    "title": "aufgabe · ↵ gemerkt",
+    "file": "m01.aufgabe-gemerkt.json"
+  },
+  {
+    "key": "M01.aufgabe-gestartet",
+    "screen": "M01",
+    "state": "aufgabe-gestartet",
+    "title": "aufgabe · ↵ startet, wird Strang",
+    "file": "m01.aufgabe-gestartet.json"
+  },
+  {
+    "key": "M01.deadline",
+    "screen": "M01",
+    "state": "deadline",
+    "title": "aufgabe · ⌘D Deadline",
+    "file": "m01.deadline.json"
+  },
+  {
+    "key": "M01.zuordnen",
+    "screen": "M01",
+    "state": "zuordnen",
+    "title": "aufgabe · ⇥ Projekt zuordnen",
+    "file": "m01.zuordnen.json"
+  },
+  {
+    "key": "M01.projekt",
+    "screen": "M01",
+    "state": "projekt",
+    "title": "projekt · der Baum",
+    "file": "m01.projekt.json"
+  },
+  {
+    "key": "M01.projekt-auf",
+    "screen": "M01",
+    "state": "projekt-auf",
+    "title": "projekt · ein weiteres aufgeklappt",
+    "file": "m01.projekt-auf.json"
+  },
+  {
+    "key": "M01.ohne-projekt",
+    "screen": "M01",
+    "state": "ohne-projekt",
+    "title": "projekt · Eingangskorb ohne Projekt",
+    "file": "m01.ohne-projekt.json"
+  },
+  {
+    "key": "M01-O1.hilfe",
+    "screen": "M01-O1",
+    "state": "hilfe",
+    "title": "⌘/ alle Kürzel",
+    "file": "m01-o1.hilfe.json"
+  },
+  {
+    "key": "M01-S1.benennen",
+    "screen": "M01-S1",
+    "state": "benennen",
+    "title": "⇧⌘R im Terminal",
+    "file": "m01-s1.benennen.json"
+  },
+  {
+    "key": "M01-S1.gespeichert",
+    "screen": "M01-S1",
+    "state": "gespeichert",
+    "title": "⇧⌘R: benannt",
+    "file": "m01-s1.gespeichert.json"
+  },
+  {
+    "key": "M01-S1.nicht-erkannt",
+    "screen": "M01-S1",
+    "state": "nicht-erkannt",
+    "title": "⇧⌘R ohne Session-ID",
+    "file": "m01-s1.nicht-erkannt.json"
+  },
+  {
+    "key": "M02.standard",
+    "screen": "M02",
+    "state": "standard",
+    "title": "Einstellungen",
+    "file": "m02.standard.json"
+  }
+]

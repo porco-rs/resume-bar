@@ -1,0 +1,185 @@
+key,text
+a11y.list.aufgabe,Ziele
+a11y.list.ziel,Ziele
+a11y.project,"Projekt {project}, {strands} Stränge, {tasks} Ziele, {state}"
+a11y.task,"Ziel, {project}, {title}, {due}"
+m00.line.terminal_only,"Ghostty geht auch, wenn es installiert ist"
+m00.line.ai_off,AI-Zugriff aus
+m00.line.ai_off_sub,"einschalten in den Einstellungen (⌘,)"
+m00.line.ai_missing,rb nicht eingerichtet
+m02.ai.unreachable,"rb erreicht die App nicht, der Zugang ließ sich nicht öffnen"
+m02.ai.not_removed,{path} ließ sich nicht entfernen
+m02.ai.failed,"{path} ließ sich nicht anlegen, rb nicht verknüpft"
+m02.ai.other,"auch {paths} heißt rb, die Reihenfolge im PATH entscheidet"
+m00.line.ai,rb eingerichtet
+m02.ai.hint,CLI {path}
+m02.ai.taken,"{path} ist belegt, rb nicht verknüpft"
+m00.line.ai_sub,Claude Code und Codex dürfen auf Nachfrage Ziele im eigenen Projekt lesen und schreiben · {path}
+m00.line.hotkey_sub,{task} neues Ziel · {pin} im Terminal benennt die markierte Session
+m01.detail.new_task,neu · ◇ ziel in {project}
+m01.detail.quoted,„{text}“
+m01.detail.new_task_due,neu · ◇ ziel in {project} · bis {date}
+m01.detail.project,{strands} stränge · {tasks} ziele
+m01.detail.task,{project} · ◇ ziel · von {by} · {date}
+m01.detail.task_due,bis {date}
+m01.detail.task_nodue,keine deadline
+m01.legend.symbols,◇ offen · ● begonnen · ◐ wartet · ○ erledigt
+m01.duehint.action,zeigen
+m01.duehint.many,{n} ziele fällig · zuerst {title} {date}
+m01.empty.tasks,"Keine offenen Ziele. Tippe, um eines anzulegen."
+m01.mode.aufgabe,ziel ›
+m01.mode.ziel,ziel ›
+m01.search.label.aufgabe,"Neues Ziel, Modus ziel"
+m01.search.label.ziel,"Neues Ziel, Modus ziel"
+m01.search.placeholder.aufgabe,neues ziel tippen …
+m01.search.placeholder.ziel,neues ziel tippen …
+m01.toast.cycle_task,"Ziele haben keinen Status · ↵ startet, ⌘⌫ erledigt"
+m01.toast.entry_save_failed,Ziel konnte nicht gespeichert oder gestartet werden.
+m01o1.due,deadline beim tippen (modus ziel)
+m01o1.due_keys,bis fr · bis 14.11
+m01o1.keep_start,ziel merken und gleich starten
+m01o1.mode,modus wechseln (pfeile: feld leer)
+m01o1.sessions,sessions zeigen / verbergen
+m01o1.goal,als /goal an/aus
+m01o1.edit_title,titel bearbeiten
+m01o1.chip,chip entfernen
+m00.line.folder,Ziele ohne Projekt starten in {path}
+m00.line.folder_sub,"ändern in den Einstellungen (⌘,)"
+m02.start_folder,Startordner
+m02.start_folder_hint,Ziele ohne Projekt starten hier · leer = Ordner mit den meisten Projekten
+m02.hk.task,Neues Ziel
+m02.hk.task_hint,öffnet das Popover direkt im Modus ziel
+undo.add,Ziel
+m02.default_tool,Standardwerkzeug
+m01.toast.project_ambiguous,mehrere: {projects} · ⇥ wählt das erste
+m01.start.codex,Codex
+m01.start.claude,Claude
+m01.start.goal,als /goal
+m01.empty.start_folder,dem Startordner
+m01o1.resume,fortsetzen · starten · merken
+m01o1.claude,starten mit dem anderen werkzeug
+m01o1.move,markieren
+trainer.exit_back,esc zurück
+trainer.exit,esc beendet
+trainer.finish,↵ fertig
+trainer.practice,üben
+m01.hint.practice,üben
+trainer.progress,üben · {n} von {total} · nur Übungsdaten
+trainer.final_progress,abschlussrunde · {n} von {total} · nur Übungsdaten
+trainer.skip,⌘T überspringen
+trainer.weitermachen,Weitermachen
+trainer.weitermachen.1,drücken: holt das Fenster von überall
+trainer.weitermachen.2,drücken: setzt die markierte Arbeit fort
+trainer.weitermachen.way,{popover} · ↵
+trainer.finden,Strang finden
+trainer.finden.1,tippen: die Liste filtert sofort
+trainer.finden.2,drücken: setzt den Strang fort
+trainer.finden.way,{popover} · 2–4 Zeichen · ↵
+trainer.input.find,zaun
+trainer.input.text,Text
+trainer.input.due,"bis fr "
+trainer.merken,Ziel merken
+trainer.merken.1,drücken: öffnet ziel ›
+trainer.merken.2,tippen: dein Ziel
+trainer.merken.3,drücken: merkt es im Projekt
+trainer.merken.way,{task} · Text · ↵
+trainer.deadline,Ziel mit Deadline
+trainer.deadline.1,drücken: öffnet ziel ›
+trainer.deadline.2,tippen: dein Ziel
+trainer.deadline.3,"dahinter tippen"
+trainer.deadline.4,drücken: merkt es mit Datum
+trainer.deadline.way,{task} · Text bis fr · ↵
+trainer.anfangen,Ziel anfangen
+trainer.anfangen.1,bis zur Zeile mit ◇
+trainer.anfangen.2,drücken: startet die Session
+trainer.anfangen.way,"↓ bis ◇ · ↵, mit ⌘G davor als /goal"
+trainer.ueberblicken,Projekt aufklappen
+trainer.ueberblicken.1,bis zur Zeile karte
+trainer.ueberblicken.2,drücken: klappt sie auf
+trainer.ueberblicken.way,↓ bis Projekt · ↵
+trainer.erledigen,Erledigen
+trainer.erledigen.1,drücken: erledigt die markierte Zeile
+trainer.erledigen.way,"⌘⌫, in der echten Liste nimmt ⌘Z es zurück"
+trainer.abschluss_finden,Finde Zaun streichen und setze es fort.
+trainer.abschluss_deadline,Merke dir ein Ziel bis Freitag.
+trainer.abschluss_anfangen,Starte Pflanzen gießen.
+trainer.final_hint,Ohne Tipp. Nach einer falschen Taste kommt er.
+trainer.success_way,✓ Geschafft. Dein Weg: {way}
+trainer.success_free,✓ Ohne Tipp geschafft.
+trainer.success_tipped,✓ Geschafft.
+trainer.next_lesson,↵ nächste Lektion
+trainer.to_final,↵ zur Abschlussrunde
+trainer.next_task,↵ weiter
+trainer.end_result,"Alle Wege einmal geschafft, {n} von 3 ohne Tipp."
+trainer.end_partial,"{done} von 10 geschafft, {n} von 3 ohne Tipp."
+trainer.end_more,Im Terminal benennt {pin} einen Strang. In der Liste zeigt ⌘/ alle Tasten.
+trainer.wrong.resume,Das hätte die Arbeit fortgesetzt. Nichts ist passiert.
+trainer.wrong.start,Das hätte die Session gestartet. Nichts ist passiert.
+trainer.wrong.add,Das hätte ein Ziel gemerkt. Nichts ist passiert.
+trainer.wrong.archive,Das hätte die Zeile erledigt. Nichts ist passiert.
+trainer.wrong.other,Das macht etwas anderes. Nichts ist passiert.
+trainer.wrong.open,Das Fenster ist schon offen. Nichts ist passiert.
+trainer.wrong.first,Erst der Schritt mit ▸. Nichts ist passiert.
+m01.search.label,Sessions suchen
+m01.row.untitled,ohne Titel
+m01.strip.ok,↵ ok
+m01.strip.pick,↑↓ wählen
+m01.strip.revert,⌘⌫ verwerfen
+m01.strip.hint,↵ ok · ↑↓ wählen · ⌘⌫ verwerfen
+m01.banner.accept,⇥ übernehmen
+m01.banner.type,tippen
+m01.banner.name,↵ benennen
+m01.banner.later,esc später
+m01.hint.discard,verwerfen
+m01.toast.change_reverted,Verworfen: {title}
+undo.acceptChanges,Änderungen bestätigen
+undo.revertChange,Änderung zurücknehmen
+rb.help,"rb – Ziele in Resume Bar
+AI darf ls, add und done nur auf Nachfrage des Nutzers verwenden, im eigenen Projekt.
+
+  rb ls [-a] [-p name]
+  rb add ""text"" [--bis wort] [-p name]
+  rb start <id|text> [--cc] [-p name]
+  rb done [id|text] [-p name]
+  rb bis <id|text> <wort|-> [-p name]
+  rb export
+  rb --help"
+rb.invalidSocket,Ungültiger Socket-Pfad.
+rb.sandbox,Die Sandbox sperrt den Zugriff auf Resume Bar. Wiederhole den Befehl mit Freigabe außerhalb der Sandbox.
+rb.socketFailed,Socket konnte nicht geöffnet werden.
+rb.notRunning,Resume Bar läuft nicht.
+rb.connectionFailed,Verbindung zu Resume Bar fehlgeschlagen.
+rb.invalidResponse,Ungültige Antwort von Resume Bar.
+rb.weekday.sun,So
+rb.weekday.mon,Mo
+rb.weekday.tue,Di
+rb.weekday.wed,Mi
+rb.weekday.thu,Do
+rb.weekday.fri,Fr
+rb.weekday.sat,Sa
+rb.datePrefix,bis
+rb.confirmation,erscheint in Resume Bar
+rb.done,"○ erledigt: "
+rb.started,"● gestartet: "
+rb.remembered,"◇ gemerkt: "
+rb.empty,Keine offenen Einträge.
+rb.notFound,Nicht gefunden.
+rb.foreignProject,Das geht nur im eigenen Projekt.
+rb.invalidDeadline,"Das Datum verstehe ich nicht. Beispiele: fr, morgen, 14.11."
+rb.ambiguous,Mehrere Treffer:
+rb.notAllowed,Das ist nicht erlaubt.
+rb.badRequest,Ungültige Anfrage.
+rb.accessOff,"Der AI-Zugriff ist aus. Einschalten in den Einstellungen (⌘,)."
+rb.callerUnknown,Resume Bar konnte den Aufrufer nicht erkennen. Nichts wurde geändert.
+rb.storeFailed,Resume Bar konnte die Daten nicht lesen oder speichern.
+rb.startFailed,Die Session ließ sich nicht starten.
+
+m00.line.ai_path,im Terminal prüfen: command -v rb
+m00.line.ai_disable,ausschalten
+m00.line.ai_enable,einschalten
+m00.line.commands,Befehle zum Fortsetzen
+m02.cmd.hint,"{id} wird durch die Session-ID ersetzt · läuft in deiner Shell, Aliase gehen auch"
+list.joiner," und "
+filter.waiting,? wartet
+filter.done,! erledigt
+filter.archive,/a archiv

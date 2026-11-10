@@ -1,0 +1,7 @@
+key,text,screen,max,plural
+m01.toast.automation_denied,{app} darf nicht gesteuert werden · Systemeinstellungen › Automation,M01,,
+m01.toast.terminal_failed,{app} startet nicht · {reason},M01,,
+menu.settings,Einstellungen …,Menü,,
+menu.quit,Resume Bar beenden,Menü,,
+m01.toast.folder_missing,"Ordner nicht gefunden: {path}
+Befehl kopiert.",M01,,

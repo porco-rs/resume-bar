@@ -1,0 +1,3206 @@
+{
+  "fixture": "m01.lang.json",
+  "ui": {
+    "mode": "resume",
+    "chips": [],
+    "query": "",
+    "sel": "e:e_l1",
+    "openProjects": [
+      "prj_parkway-portal-customer-area-rebuild"
+    ],
+    "openEntries": [],
+    "edit": null,
+    "toast": null,
+    "notes": {},
+    "focus": "list",
+    "bannerText": "",
+    "stripIdx": 0,
+    "contextDismissed": false,
+    "help": false,
+    "undoHint": false,
+    "panel": null,
+    "selectAll": false,
+    "recording": null
+  },
+  "viewSnapshot": {
+    "schemaVersion": 2,
+    "now": "2026-11-04T12:00:00+01:00",
+    "context": {
+      "projectId": "prj_parkway-portal-customer-area-rebuild",
+      "source": "terminal",
+      "cwd": "/Users/mira/projects/parkway-portal-customer-area-rebuild",
+      "windowIndex": 1
+    },
+    "settings": {
+      "commands": {
+        "codex": "codex resume {id}",
+        "claude": "claude --resume {id}"
+      },
+      "newCommands": {
+        "codex": "codex",
+        "claude": "claude"
+      },
+      "commandsSource": "~/.zshrc",
+      "terminal": {
+        "default": "ghostty",
+        "alternate": "terminal"
+      },
+      "hotkeys": {
+        "popover": "⇧⌘Space",
+        "task": "⌥⌘N",
+        "pin": "⇧⌘R"
+      },
+      "archiveDays": 3,
+      "cleanupThreshold": 3,
+      "importDays": 14,
+      "watch": {
+        "claude": "~/.claude/projects",
+        "codex": "~/.codex/sessions"
+      },
+      "ai": {
+        "mcp": true,
+        "cliPath": "~/.local/bin/rb",
+        "clients": {
+          "claude": "verbunden",
+          "codex": "verbunden"
+        }
+      }
+    },
+    "permissions": {
+      "accessibility": true,
+      "automation": {
+        "ghostty": "granted",
+        "terminal": "unknown"
+      }
+    },
+    "import": {
+      "sessions": 41,
+      "days": 14,
+      "byProject": {
+        "parkway-portal": 18,
+        "vesper_ios": 13,
+        "devboardkit": 5,
+        "weitere 5 projekte": 5
+      }
+    },
+    "projects": [
+      {
+        "id": "prj_parkway-portal",
+        "name": "parkway-portal",
+        "rootPath": "/Users/mira/projects/parkway-portal"
+      },
+      {
+        "id": "prj_vesper_ios",
+        "name": "vesper_ios",
+        "rootPath": "/Users/mira/projects/vesper_ios"
+      },
+      {
+        "id": "prj_devboardkit",
+        "name": "devboardkit",
+        "rootPath": "/Users/mira/projects/devboardkit"
+      },
+      {
+        "id": "prj_resume_bar_mac",
+        "name": "resume_bar_mac",
+        "rootPath": "/Users/mira/projects/resume_bar_mac"
+      },
+      {
+        "id": "prj_local_runner",
+        "name": "local_runner",
+        "rootPath": "/Users/mira/projects/local_runner"
+      },
+      {
+        "id": "prj_Dune",
+        "name": "Dune",
+        "rootPath": "/Users/mira/projects/Dune"
+      },
+      {
+        "id": "prj_bluefin_portal",
+        "name": "bluefin_portal",
+        "rootPath": "/Users/mira/projects/bluefin_portal"
+      },
+      {
+        "id": "prj_parkway-portal-customer-area-rebuild",
+        "name": "parkway-portal-customer-area-rebuild",
+        "rootPath": "/Users/mira/projects/parkway-portal-customer-area-rebuild"
+      }
+    ],
+    "entries": [
+      {
+        "id": "e_s1",
+        "projectId": "prj_parkway-portal",
+        "title": "Q2-Zuarbeiten für Mira prüfen",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-04T00:48:00.000Z",
+        "updatedAt": "2026-11-04T10:48:00.000Z",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_s2",
+        "projectId": "prj_vesper_ios",
+        "title": "Projektanalyse – wartet auf Freigabe",
+        "status": "wartet",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-02T10:15:00.000Z",
+        "updatedAt": "2026-11-04T10:35:00.000Z",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_s3",
+        "projectId": "prj_devboardkit",
+        "title": null,
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-04T07:20:00.000Z",
+        "updatedAt": "2026-11-04T08:50:00.000Z",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_s4",
+        "projectId": "prj_vesper_ios",
+        "title": "CallKit-Anbindung prüfen",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-04T04:40:00.000Z",
+        "updatedAt": "2026-11-04T06:00:00.000Z",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_s5",
+        "projectId": "prj_parkway-portal",
+        "title": "Blogzugriff Basisversion fixen",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-02T15:44:00.000Z",
+        "updatedAt": "2026-11-02T16:29:00.000Z",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_s6",
+        "projectId": "prj_parkway-portal",
+        "title": "Hauptupdate undercover",
+        "status": "wartet",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-01T06:03:00.000Z",
+        "updatedAt": "2026-11-03T12:00:00.000Z",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_s7",
+        "projectId": "prj_vesper_ios",
+        "title": "projects/codex prüfen",
+        "status": "erledigt",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-10-29T18:53:00.000Z",
+        "updatedAt": "2026-10-29T19:38:00.000Z",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_s8",
+        "projectId": "prj_parkway-portal",
+        "title": "Preisliste-Check Kundenseiten",
+        "status": "erledigt",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-10-26T14:25:00.000Z",
+        "updatedAt": "2026-10-26T15:10:00.000Z",
+        "archivedAt": "2026-10-26T16:00:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_s9",
+        "projectId": "prj_parkway-portal",
+        "title": "Parkway Portal Velocity",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-03T14:15:00.000Z",
+        "updatedAt": "2026-11-03T15:00:00.000Z",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_s10",
+        "projectId": "prj_resume_bar_mac",
+        "title": "resume bar -> finish",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-03T12:15:00.000Z",
+        "updatedAt": "2026-11-03T13:00:00.000Z",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_s11",
+        "projectId": "prj_Dune",
+        "title": "Cleanpass /cleanup-Befehl",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-01T13:35:00.000Z",
+        "updatedAt": "2026-11-01T14:20:00.000Z",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_s12",
+        "projectId": "prj_local_runner",
+        "title": null,
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-02T16:15:00.000Z",
+        "updatedAt": "2026-11-02T17:00:00.000Z",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_s13",
+        "projectId": "prj_devboardkit",
+        "title": null,
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-10-28T12:55:00.000Z",
+        "updatedAt": "2026-10-28T13:40:00.000Z",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_s14",
+        "projectId": "prj_parkway-portal",
+        "title": "Barrierefreiheit-Report",
+        "status": "wartet",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-10-26T08:30:00.000Z",
+        "updatedAt": "2026-10-26T09:15:00.000Z",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_s15",
+        "projectId": "prj_parkway-portal",
+        "title": "Blog-Feed Caching",
+        "status": "erledigt",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-10-12T06:29:00.000Z",
+        "updatedAt": "2026-10-12T07:14:00.000Z",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_s16",
+        "projectId": null,
+        "title": null,
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-03T06:55:00.000Z",
+        "updatedAt": "2026-11-03T07:40:00.000Z",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_s17",
+        "projectId": "prj_parkway-portal",
+        "title": "0012 Bestellkonsole Umsetzung",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-01T11:15:00.000Z",
+        "updatedAt": "2026-11-01T12:00:00.000Z",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_t1",
+        "projectId": "prj_parkway-portal",
+        "title": "Preisliste-Scanner für AT-Seiten",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": "2026-11-06",
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-02T08:00:00.000Z",
+        "updatedAt": "2026-11-02T08:00:00.000Z",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_t2",
+        "projectId": "prj_parkway-portal",
+        "title": "Bestellkonsole: Export als PDF",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-01T09:00:00.000Z",
+        "updatedAt": "2026-11-01T09:00:00.000Z",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_t3",
+        "projectId": "prj_vesper_ios",
+        "title": "Push-Zustellung messen",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-10-30T15:00:00.000Z",
+        "updatedAt": "2026-10-30T15:00:00.000Z",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_t4",
+        "projectId": "prj_resume_bar_mac",
+        "title": "Aufgaben-Feature bauen",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": "2026-11-14",
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-03T16:50:00.000Z",
+        "updatedAt": "2026-11-03T16:50:00.000Z",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_t5",
+        "projectId": "prj_local_runner",
+        "title": "Qwen-Coder gegen Codex benchmarken",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-02T18:00:00.000Z",
+        "updatedAt": "2026-11-02T18:00:00.000Z",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_t6",
+        "projectId": "prj_bluefin_portal",
+        "title": "Produktdaten-Import prüfen",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "claude",
+        "doneBy": null,
+        "createdAt": "2026-11-02T10:00:00.000Z",
+        "updatedAt": "2026-11-02T10:00:00.000Z",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_t7",
+        "projectId": null,
+        "title": "Steuerunterlagen 2026 sortieren",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": "2026-11-15",
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-01T19:00:00.000Z",
+        "updatedAt": "2026-11-01T19:00:00.000Z",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_t8",
+        "projectId": null,
+        "title": "Lokales Modell für Commit-Messages testen",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-04T08:12:00.000Z",
+        "updatedAt": "2026-11-04T08:12:00.000Z",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_l0",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "title": "Barrierefreiheits-Audit der Checkout-Strecke inklusive Screenreader-Tests",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-04T12:00:00+01:00",
+        "updatedAt": "2026-11-04T12:00:00+01:00",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_l1",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "title": "Migration der Kundenkonten auf das neue Rechtemodell mit Rollen pro Mandant",
+        "status": "wartet",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-04T12:00:00+01:00",
+        "updatedAt": "2026-11-04T12:00:00+01:00",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_l2",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "title": "Datenschutz-Folgenabschätzung für das Tracking im Partnerseite",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-04T12:00:00+01:00",
+        "updatedAt": "2026-11-04T12:00:00+01:00",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_l3",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "title": null,
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-04T12:00:00+01:00",
+        "updatedAt": "2026-11-04T12:00:00+01:00",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_l4",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "title": "Rechtstexte-Synchronisation zwischen CMS und Portal",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-04T12:00:00+01:00",
+        "updatedAt": "2026-11-04T12:00:00+01:00",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_l5",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "title": "Barrierefreiheits-Audit der Checkout-Strecke inklusive Screenreader-Tests · Teil 2",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-04T12:00:00+01:00",
+        "updatedAt": "2026-11-04T12:00:00+01:00",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_l6",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "title": "Migration der Kundenkonten auf das neue Rechtemodell mit Rollen pro Mandant · Teil 2",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-04T12:00:00+01:00",
+        "updatedAt": "2026-11-04T12:00:00+01:00",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_l7",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "title": null,
+        "status": "wartet",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-04T12:00:00+01:00",
+        "updatedAt": "2026-11-04T12:00:00+01:00",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_l8",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "title": "Performance-Budget für die Startseite unter 1,5 s auf 4G · Teil 2",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-04T12:00:00+01:00",
+        "updatedAt": "2026-11-04T12:00:00+01:00",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_l9",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "title": "Rechtstexte-Synchronisation zwischen CMS und Portal · Teil 2",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-04T12:00:00+01:00",
+        "updatedAt": "2026-11-04T12:00:00+01:00",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_l10",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "title": "Barrierefreiheits-Audit der Checkout-Strecke inklusive Screenreader-Tests · Teil 3",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-04T12:00:00+01:00",
+        "updatedAt": "2026-11-04T12:00:00+01:00",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_l11",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "title": null,
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-04T12:00:00+01:00",
+        "updatedAt": "2026-11-04T12:00:00+01:00",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_l12",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "title": "Datenschutz-Folgenabschätzung für das Tracking im Partnerseite · Teil 3",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-04T12:00:00+01:00",
+        "updatedAt": "2026-11-04T12:00:00+01:00",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_l13",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "title": "Performance-Budget für die Startseite unter 1,5 s auf 4G · Teil 3",
+        "status": "wartet",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-04T12:00:00+01:00",
+        "updatedAt": "2026-11-04T12:00:00+01:00",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_l14",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "title": "Rechtstexte-Synchronisation zwischen CMS und Portal · Teil 3",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-04T12:00:00+01:00",
+        "updatedAt": "2026-11-04T12:00:00+01:00",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_l15",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "title": null,
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-04T12:00:00+01:00",
+        "updatedAt": "2026-11-04T12:00:00+01:00",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_l16",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "title": "Migration der Kundenkonten auf das neue Rechtemodell mit Rollen pro Mandant · Teil 4",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-04T12:00:00+01:00",
+        "updatedAt": "2026-11-04T12:00:00+01:00",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_l17",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "title": "Datenschutz-Folgenabschätzung für das Tracking im Partnerseite · Teil 4",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-04T12:00:00+01:00",
+        "updatedAt": "2026-11-04T12:00:00+01:00",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_l18",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "title": "Performance-Budget für die Startseite unter 1,5 s auf 4G · Teil 4",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-04T12:00:00+01:00",
+        "updatedAt": "2026-11-04T12:00:00+01:00",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_l19",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "title": null,
+        "status": "wartet",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-04T12:00:00+01:00",
+        "updatedAt": "2026-11-04T12:00:00+01:00",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_l20",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "title": "Barrierefreiheits-Audit der Checkout-Strecke inklusive Screenreader-Tests · Teil 5",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-04T12:00:00+01:00",
+        "updatedAt": "2026-11-04T12:00:00+01:00",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_l21",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "title": "Migration der Kundenkonten auf das neue Rechtemodell mit Rollen pro Mandant · Teil 5",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-04T12:00:00+01:00",
+        "updatedAt": "2026-11-04T12:00:00+01:00",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_l22",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "title": "Datenschutz-Folgenabschätzung für das Tracking im Partnerseite · Teil 5",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-04T12:00:00+01:00",
+        "updatedAt": "2026-11-04T12:00:00+01:00",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_l23",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "title": null,
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": null,
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-04T12:00:00+01:00",
+        "updatedAt": "2026-11-04T12:00:00+01:00",
+        "archivedAt": null,
+        "schemaVersion": 2
+      },
+      {
+        "id": "e_l99",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "title": "Migration der Kundenkonten auf das neue Rechtemodell mit Rollen pro Mandant – Rollen pro Mandant mit Vererbung",
+        "status": "offen",
+        "statusChangedAt": null,
+        "deadline": "2026-11-05",
+        "createdBy": "user",
+        "doneBy": null,
+        "createdAt": "2026-11-04T12:00:00+01:00",
+        "updatedAt": "2026-11-04T12:00:00+01:00",
+        "archivedAt": null,
+        "schemaVersion": 2
+      }
+    ],
+    "sessions": [
+      {
+        "id": "cx_096948a8-0000-4000-8000-5c94ca2b0a82",
+        "tool": "codex",
+        "nativeId": "096948a8-0000-4000-8000-5c94ca2b0a82",
+        "entryId": "e_s1",
+        "projectId": "prj_parkway-portal",
+        "cwd": "/Users/mira/projects/parkway-portal",
+        "transcriptPath": "~/.codex/sessions/2026/11/04/rollout-2026-11-04T00-48-00-096948a8-0000-4000-8000-5c94ca2b0a82.jsonl",
+        "startedAt": "2026-11-04T00:48:00.000Z",
+        "lastActivityAt": "2026-11-04T10:48:00.000Z",
+        "resumeCount": 4,
+        "tokens": 2600000,
+        "firstPrompt": "Prüfe die Q2-Zuarbeiten, die Mira unter zuarbeiten/ abgelegt hat",
+        "threadName": "Prüfe Q2-Zuarbeiten für Mira",
+        "suggestedTitle": "Prüfe Q2-Zuarbeiten für Mira",
+        "resumable": true,
+        "live": {
+          "running": true,
+          "pid": 48211,
+          "tty": "ttys002",
+          "terminalApp": "ghostty",
+          "windowIndex": 2
+        },
+        "createdAt": "2026-11-04T00:48:00.000Z",
+        "updatedAt": "2026-11-04T10:48:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cx_11c83683-0000-4000-8000-d4c6b2e18e7b",
+        "tool": "codex",
+        "nativeId": "11c83683-0000-4000-8000-d4c6b2e18e7b",
+        "entryId": "e_s2",
+        "projectId": "prj_vesper_ios",
+        "cwd": "/Users/mira/projects/vesper_ios",
+        "transcriptPath": "~/.codex/sessions/2026/11/02/rollout-2026-11-02T10-15-00-11c83683-0000-4000-8000-d4c6b2e18e7b.jsonl",
+        "startedAt": "2026-11-02T10:15:00.000Z",
+        "lastActivityAt": "2026-11-04T10:35:00.000Z",
+        "resumeCount": 8,
+        "tokens": 3500000,
+        "firstPrompt": "Analysiere das Projekt und warte auf meine Freigabe, bevor du etwas änderst",
+        "threadName": "Analysiere Projekt und warte",
+        "suggestedTitle": "Analysiere Projekt und warte",
+        "resumable": true,
+        "live": {
+          "running": true,
+          "pid": 47102,
+          "tty": "ttys004",
+          "terminalApp": "ghostty",
+          "windowIndex": 3
+        },
+        "createdAt": "2026-11-02T10:15:00.000Z",
+        "updatedAt": "2026-11-04T10:35:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cx_af2744b4-0000-4000-8000-52355bbd24a8",
+        "tool": "codex",
+        "nativeId": "af2744b4-0000-4000-8000-52355bbd24a8",
+        "entryId": "e_s3",
+        "projectId": "prj_devboardkit",
+        "cwd": "/Users/mira/projects/devboardkit",
+        "transcriptPath": "~/.codex/sessions/2026/11/04/rollout-2026-11-04T07-20-00-af2744b4-0000-4000-8000-52355bbd24a8.jsonl",
+        "startedAt": "2026-11-04T07:20:00.000Z",
+        "lastActivityAt": "2026-11-04T08:50:00.000Z",
+        "resumeCount": 1,
+        "tokens": 900000,
+        "firstPrompt": "Untersuche, warum devtool bei den Builds blockiert",
+        "threadName": "devtool-Blockaden untersuchen",
+        "suggestedTitle": "devtool-Blockaden untersuchen",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-04T07:20:00.000Z",
+        "updatedAt": "2026-11-04T08:50:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cc_033385f9-0000-4000-8000-7ec4933aa8e2",
+        "tool": "claude",
+        "nativeId": "033385f9-0000-4000-8000-7ec4933aa8e2",
+        "entryId": "e_s4",
+        "projectId": "prj_vesper_ios",
+        "cwd": "/Users/mira/projects/vesper_ios",
+        "transcriptPath": "~/.claude/projects/-Users-mira-projects-vesper-ios/033385f9-0000-4000-8000-7ec4933aa8e2.jsonl",
+        "startedAt": "2026-11-04T04:40:00.000Z",
+        "lastActivityAt": "2026-11-04T06:00:00.000Z",
+        "resumeCount": 1,
+        "tokens": 400000,
+        "firstPrompt": "Prüfe die CallKit-Anbindung im Call-Screen",
+        "threadName": null,
+        "suggestedTitle": "CallKit-Anbindung prüfen",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-04T04:40:00.000Z",
+        "updatedAt": "2026-11-04T06:00:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cc_48cadb15-0000-4000-8000-29e393e983c7",
+        "tool": "claude",
+        "nativeId": "48cadb15-0000-4000-8000-29e393e983c7",
+        "entryId": "e_s5",
+        "projectId": "prj_parkway-portal",
+        "cwd": "/Users/mira/projects/parkway-portal",
+        "transcriptPath": "~/.claude/projects/-Users-mira-projects-parkway-portal/48cadb15-0000-4000-8000-29e393e983c7.jsonl",
+        "startedAt": "2026-11-02T15:44:00.000Z",
+        "lastActivityAt": "2026-11-02T16:29:00.000Z",
+        "resumeCount": 2,
+        "tokens": 1100000,
+        "firstPrompt": "Fixe den Blogzugriff in der Basisversion",
+        "threadName": null,
+        "suggestedTitle": "Fixe den Blogzugriff in der Basisversion",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-02T15:44:00.000Z",
+        "updatedAt": "2026-11-02T16:29:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cx_6fd96b95-0000-4000-8000-406c2c8b556d",
+        "tool": "codex",
+        "nativeId": "6fd96b95-0000-4000-8000-406c2c8b556d",
+        "entryId": "e_s6",
+        "projectId": "prj_parkway-portal",
+        "cwd": "/Users/mira/projects/parkway-portal",
+        "transcriptPath": "~/.codex/sessions/2026/11/01/rollout-2026-11-01T06-03-00-6fd96b95-0000-4000-8000-406c2c8b556d.jsonl",
+        "startedAt": "2026-11-01T06:03:00.000Z",
+        "lastActivityAt": "2026-11-01T10:03:00.000Z",
+        "resumeCount": 1,
+        "tokens": 14300000,
+        "firstPrompt": "Untersuche Hauptupdate undercover",
+        "threadName": "Untersuche Hauptupdate undercover",
+        "suggestedTitle": "Untersuche Hauptupdate undercover",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-01T06:03:00.000Z",
+        "updatedAt": "2026-11-01T10:03:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cc_0016cc0a-0000-4000-8000-dc038c456da1",
+        "tool": "claude",
+        "nativeId": "0016cc0a-0000-4000-8000-dc038c456da1",
+        "entryId": "e_s6",
+        "projectId": "prj_parkway-portal",
+        "cwd": "/Users/mira/projects/parkway-portal",
+        "transcriptPath": "~/.claude/projects/-Users-mira-projects-parkway-portal/0016cc0a-0000-4000-8000-dc038c456da1.jsonl",
+        "startedAt": "2026-11-03T11:15:00.000Z",
+        "lastActivityAt": "2026-11-03T12:00:00.000Z",
+        "resumeCount": 2,
+        "tokens": 1900000,
+        "firstPrompt": "Deckel über Hauptupdate",
+        "threadName": null,
+        "suggestedTitle": "Deckel über Hauptupdate",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-03T11:15:00.000Z",
+        "updatedAt": "2026-11-03T12:00:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cx_d43534b6-0000-4000-8000-0695a68cec25",
+        "tool": "codex",
+        "nativeId": "d43534b6-0000-4000-8000-0695a68cec25",
+        "entryId": "e_s7",
+        "projectId": "prj_vesper_ios",
+        "cwd": "/Users/mira/projects/vesper_ios",
+        "transcriptPath": "~/.codex/sessions/2026/10/29/rollout-2026-10-29T18-53-00-d43534b6-0000-4000-8000-0695a68cec25.jsonl",
+        "startedAt": "2026-10-29T18:53:00.000Z",
+        "lastActivityAt": "2026-10-29T19:38:00.000Z",
+        "resumeCount": 2,
+        "tokens": 700000,
+        "firstPrompt": "Prüfe projects/codex",
+        "threadName": "Prüfe projects/codex",
+        "suggestedTitle": "Prüfe projects/codex",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-10-29T18:53:00.000Z",
+        "updatedAt": "2026-10-29T19:38:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cc_1c51c048-0000-4000-8000-ab00e4fee4a8",
+        "tool": "claude",
+        "nativeId": "1c51c048-0000-4000-8000-ab00e4fee4a8",
+        "entryId": "e_s8",
+        "projectId": "prj_parkway-portal",
+        "cwd": "/Users/mira/projects/parkway-portal",
+        "transcriptPath": "~/.claude/projects/-Users-mira-projects-parkway-portal/1c51c048-0000-4000-8000-ab00e4fee4a8.jsonl",
+        "startedAt": "2026-10-26T14:25:00.000Z",
+        "lastActivityAt": "2026-10-26T15:10:00.000Z",
+        "resumeCount": 3,
+        "tokens": 1800000,
+        "firstPrompt": "Checke die Preislisten der Kundenseiten",
+        "threadName": null,
+        "suggestedTitle": "Checke die Preislisten der Kundenseiten",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-10-26T14:25:00.000Z",
+        "updatedAt": "2026-10-26T15:10:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cc_2269c394-0000-4000-8000-b98a62daa94c",
+        "tool": "claude",
+        "nativeId": "2269c394-0000-4000-8000-b98a62daa94c",
+        "entryId": "e_s9",
+        "projectId": "prj_parkway-portal",
+        "cwd": "/Users/mira/projects/parkway-portal",
+        "transcriptPath": "~/.claude/projects/-Users-mira-projects-parkway-portal/2269c394-0000-4000-8000-b98a62daa94c.jsonl",
+        "startedAt": "2026-11-03T14:15:00.000Z",
+        "lastActivityAt": "2026-11-03T15:00:00.000Z",
+        "resumeCount": 1,
+        "tokens": 2200000,
+        "firstPrompt": "Parkway Portal Velocity messen",
+        "threadName": null,
+        "suggestedTitle": "Parkway Portal Velocity messen",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-03T14:15:00.000Z",
+        "updatedAt": "2026-11-03T15:00:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cc_b4cbe3d1-0000-4000-8000-32cd48a56bc7",
+        "tool": "claude",
+        "nativeId": "b4cbe3d1-0000-4000-8000-32cd48a56bc7",
+        "entryId": "e_s10",
+        "projectId": "prj_resume_bar_mac",
+        "cwd": "/Users/mira/projects/resume_bar_mac",
+        "transcriptPath": "~/.claude/projects/-Users-mira-projects-resume-bar-mac/b4cbe3d1-0000-4000-8000-32cd48a56bc7.jsonl",
+        "startedAt": "2026-11-03T12:15:00.000Z",
+        "lastActivityAt": "2026-11-03T13:00:00.000Z",
+        "resumeCount": 5,
+        "tokens": 6400000,
+        "firstPrompt": "resume bar fertigstellen",
+        "threadName": null,
+        "suggestedTitle": "resume bar fertigstellen",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-03T12:15:00.000Z",
+        "updatedAt": "2026-11-03T13:00:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cc_74495924-0000-4000-8000-49ac87cd8401",
+        "tool": "claude",
+        "nativeId": "74495924-0000-4000-8000-49ac87cd8401",
+        "entryId": "e_s11",
+        "projectId": "prj_Dune",
+        "cwd": "/Users/mira/projects/Dune",
+        "transcriptPath": "~/.claude/projects/-Users-mira-projects-Dune/74495924-0000-4000-8000-49ac87cd8401.jsonl",
+        "startedAt": "2026-11-01T13:35:00.000Z",
+        "lastActivityAt": "2026-11-01T14:20:00.000Z",
+        "resumeCount": 1,
+        "tokens": null,
+        "firstPrompt": "Cleanpass /cleanup-Befehl",
+        "threadName": null,
+        "suggestedTitle": "Cleanpass /cleanup-Befehl",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-01T13:35:00.000Z",
+        "updatedAt": "2026-11-01T14:20:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cx_25b178f5-0000-4000-8000-7a70b8c644da",
+        "tool": "codex",
+        "nativeId": "25b178f5-0000-4000-8000-7a70b8c644da",
+        "entryId": "e_s12",
+        "projectId": "prj_local_runner",
+        "cwd": "/Users/mira/projects/local_runner",
+        "transcriptPath": "~/.codex/sessions/2026/11/02/rollout-2026-11-02T16-15-00-25b178f5-0000-4000-8000-7a70b8c644da.jsonl",
+        "startedAt": "2026-11-02T16:15:00.000Z",
+        "lastActivityAt": "2026-11-02T17:00:00.000Z",
+        "resumeCount": 1,
+        "tokens": null,
+        "firstPrompt": "Recherchiere lokale Coding-Modelle",
+        "threadName": "Recherchiere lokale Coding-Modelle",
+        "suggestedTitle": "Recherchiere lokale Coding-Modelle",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-02T16:15:00.000Z",
+        "updatedAt": "2026-11-02T17:00:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cc_7e4a99af-0000-4000-8000-ed407e80f4fc",
+        "tool": "claude",
+        "nativeId": "7e4a99af-0000-4000-8000-ed407e80f4fc",
+        "entryId": "e_s13",
+        "projectId": "prj_devboardkit",
+        "cwd": "/Users/mira/projects/devboardkit",
+        "transcriptPath": "~/.claude/projects/-Users-mira-projects-devboardkit/7e4a99af-0000-4000-8000-ed407e80f4fc.jsonl",
+        "startedAt": "2026-10-28T12:55:00.000Z",
+        "lastActivityAt": "2026-10-28T13:40:00.000Z",
+        "resumeCount": 1,
+        "tokens": null,
+        "firstPrompt": "Logs der Nightly-Builds sichten",
+        "threadName": null,
+        "suggestedTitle": "Logs der Nightly-Builds sichten",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-10-28T12:55:00.000Z",
+        "updatedAt": "2026-10-28T13:40:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cx_12681c5c-0000-4000-8000-1edab738a6b0",
+        "tool": "codex",
+        "nativeId": "12681c5c-0000-4000-8000-1edab738a6b0",
+        "entryId": "e_s14",
+        "projectId": "prj_parkway-portal",
+        "cwd": "/Users/mira/projects/parkway-portal",
+        "transcriptPath": "~/.codex/sessions/2026/10/26/rollout-2026-10-26T08-30-00-12681c5c-0000-4000-8000-1edab738a6b0.jsonl",
+        "startedAt": "2026-10-26T08:30:00.000Z",
+        "lastActivityAt": "2026-10-26T09:15:00.000Z",
+        "resumeCount": 1,
+        "tokens": 5200000,
+        "firstPrompt": "Erstelle Barrierefreiheit-Report",
+        "threadName": "Erstelle Barrierefreiheit-Report",
+        "suggestedTitle": "Erstelle Barrierefreiheit-Report",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-10-26T08:30:00.000Z",
+        "updatedAt": "2026-10-26T09:15:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cc_f3c1f06e-0000-4000-8000-f6ef19b1f9a3",
+        "tool": "claude",
+        "nativeId": "f3c1f06e-0000-4000-8000-f6ef19b1f9a3",
+        "entryId": "e_s15",
+        "projectId": "prj_parkway-portal",
+        "cwd": "/Users/mira/projects/parkway-portal",
+        "transcriptPath": "~/.claude/projects/-Users-mira-projects-parkway-portal/f3c1f06e-0000-4000-8000-f6ef19b1f9a3.jsonl",
+        "startedAt": "2026-10-12T06:29:00.000Z",
+        "lastActivityAt": "2026-10-12T07:14:00.000Z",
+        "resumeCount": 1,
+        "tokens": null,
+        "firstPrompt": "Baue Caching für den Blog-Feed",
+        "threadName": null,
+        "suggestedTitle": "Baue Caching für den Blog-Feed",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-10-12T06:29:00.000Z",
+        "updatedAt": "2026-10-12T07:14:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cc_97e37b67-0000-4000-8000-6e7effd2273a",
+        "tool": "claude",
+        "nativeId": "97e37b67-0000-4000-8000-6e7effd2273a",
+        "entryId": "e_s16",
+        "projectId": null,
+        "cwd": "/Users/mira",
+        "transcriptPath": "~/.claude/projects/-Users-mira/97e37b67-0000-4000-8000-6e7effd2273a.jsonl",
+        "startedAt": "2026-11-03T06:55:00.000Z",
+        "lastActivityAt": "2026-11-03T07:40:00.000Z",
+        "resumeCount": 1,
+        "tokens": null,
+        "firstPrompt": "Shell-Aliase aufräumen",
+        "threadName": null,
+        "suggestedTitle": "Shell-Aliase aufräumen",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-03T06:55:00.000Z",
+        "updatedAt": "2026-11-03T07:40:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cc_0c6c3c7f-0000-4000-8000-537e5bcd3d08",
+        "tool": "claude",
+        "nativeId": "0c6c3c7f-0000-4000-8000-537e5bcd3d08",
+        "entryId": "e_s17",
+        "projectId": "prj_parkway-portal",
+        "cwd": "/Users/mira/projects/parkway-portal",
+        "transcriptPath": "~/.claude/projects/-Users-mira-projects-parkway-portal/0c6c3c7f-0000-4000-8000-537e5bcd3d08.jsonl",
+        "startedAt": "2026-11-01T11:15:00.000Z",
+        "lastActivityAt": "2026-11-01T12:00:00.000Z",
+        "resumeCount": 1,
+        "tokens": null,
+        "firstPrompt": "0012 Bestellkonsole umsetzen",
+        "threadName": null,
+        "suggestedTitle": "0012 Bestellkonsole umsetzen",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-01T11:15:00.000Z",
+        "updatedAt": "2026-11-01T12:00:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cc_587f73de-0000-4000-8000-c2e04e5af555",
+        "tool": "claude",
+        "nativeId": "587f73de-0000-4000-8000-c2e04e5af555",
+        "entryId": "e_l0",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "cwd": "/Users/mira/projects/parkway-portal-customer-area-rebuild",
+        "transcriptPath": "~/.claude/projects/-Users-mira-projects-parkway-portal-customer-area-rebuild/587f73de-0000-4000-8000-c2e04e5af555.jsonl",
+        "startedAt": "2026-11-04T10:12:00.000Z",
+        "lastActivityAt": "2026-11-04T10:57:00.000Z",
+        "resumeCount": 23,
+        "tokens": 142800000,
+        "firstPrompt": "Barrierefreiheits-Audit der Checkout-Strecke inklusive Screenreader-Tests",
+        "threadName": null,
+        "suggestedTitle": "Barrierefreiheits-Audit der Checkout-Strecke inklusive Screenreader-Tests",
+        "resumable": true,
+        "live": {
+          "running": true,
+          "pid": 50001,
+          "tty": "ttys007",
+          "terminalApp": "ghostty",
+          "windowIndex": 1
+        },
+        "createdAt": "2026-11-04T10:12:00.000Z",
+        "updatedAt": "2026-11-04T10:57:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cx_35feb098-0000-4000-8000-2fce7186852e",
+        "tool": "codex",
+        "nativeId": "35feb098-0000-4000-8000-2fce7186852e",
+        "entryId": "e_l1",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "cwd": "/Users/mira/projects/parkway-portal-customer-area-rebuild",
+        "transcriptPath": "~/.codex/sessions/2026/11/04/rollout-2026-11-04T08-37-00-35feb098-0000-4000-8000-2fce7186852e.jsonl",
+        "startedAt": "2026-11-04T08:37:00.000Z",
+        "lastActivityAt": "2026-11-04T09:22:00.000Z",
+        "resumeCount": 2,
+        "tokens": 1400000,
+        "firstPrompt": "Migration der Kundenkonten auf das neue Rechtemodell mit Rollen pro Mandant",
+        "threadName": "Migration der Kundenkonten auf das neue Rechtemodell mit Rollen pro Mandant",
+        "suggestedTitle": "Migration der Kundenkonten auf das neue Rechtemodell mit Rollen pro Mandant",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-04T08:37:00.000Z",
+        "updatedAt": "2026-11-04T09:22:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cx_ad52bfb5-0000-4000-8000-42616c523800",
+        "tool": "codex",
+        "nativeId": "ad52bfb5-0000-4000-8000-42616c523800",
+        "entryId": "e_l2",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "cwd": "/Users/mira/projects/parkway-portal-customer-area-rebuild",
+        "transcriptPath": "~/.codex/sessions/2026/11/04/rollout-2026-11-04T07-02-00-ad52bfb5-0000-4000-8000-42616c523800.jsonl",
+        "startedAt": "2026-11-04T07:02:00.000Z",
+        "lastActivityAt": "2026-11-04T07:47:00.000Z",
+        "resumeCount": 3,
+        "tokens": 2100000,
+        "firstPrompt": "Datenschutz-Folgenabschätzung für das Tracking im Partnerseite",
+        "threadName": "Datenschutz-Folgenabschätzung für das Tracking im Partnerseite",
+        "suggestedTitle": "Datenschutz-Folgenabschätzung für das Tracking im Partnerseite",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-04T07:02:00.000Z",
+        "updatedAt": "2026-11-04T07:47:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cc_87b1a6cb-0000-4000-8000-4e397a7b5f7f",
+        "tool": "claude",
+        "nativeId": "87b1a6cb-0000-4000-8000-4e397a7b5f7f",
+        "entryId": "e_l3",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "cwd": "/Users/mira/projects/parkway-portal-customer-area-rebuild",
+        "transcriptPath": "~/.claude/projects/-Users-mira-projects-parkway-portal-customer-area-rebuild/87b1a6cb-0000-4000-8000-4e397a7b5f7f.jsonl",
+        "startedAt": "2026-11-04T05:27:00.000Z",
+        "lastActivityAt": "2026-11-04T06:12:00.000Z",
+        "resumeCount": 4,
+        "tokens": 2800000,
+        "firstPrompt": "Performance-Budget für die Startseite unter 1,5 s auf 4G",
+        "threadName": null,
+        "suggestedTitle": "Performance-Budget für die Startseite unter 1,5 s auf 4G",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-04T05:27:00.000Z",
+        "updatedAt": "2026-11-04T06:12:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cx_5dcda043-0000-4000-8000-09c43f627726",
+        "tool": "codex",
+        "nativeId": "5dcda043-0000-4000-8000-09c43f627726",
+        "entryId": "e_l4",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "cwd": "/Users/mira/projects/parkway-portal-customer-area-rebuild",
+        "transcriptPath": "~/.codex/sessions/2026/11/04/rollout-2026-11-04T03-52-00-5dcda043-0000-4000-8000-09c43f627726.jsonl",
+        "startedAt": "2026-11-04T03:52:00.000Z",
+        "lastActivityAt": "2026-11-04T04:37:00.000Z",
+        "resumeCount": 5,
+        "tokens": 3500000,
+        "firstPrompt": "Rechtstexte-Synchronisation zwischen CMS und Portal",
+        "threadName": "Rechtstexte-Synchronisation zwischen CMS und Portal",
+        "suggestedTitle": "Rechtstexte-Synchronisation zwischen CMS und Portal",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-04T03:52:00.000Z",
+        "updatedAt": "2026-11-04T04:37:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cx_1cdcd8f2-0000-4000-8000-d600282558b3",
+        "tool": "codex",
+        "nativeId": "1cdcd8f2-0000-4000-8000-d600282558b3",
+        "entryId": "e_l5",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "cwd": "/Users/mira/projects/parkway-portal-customer-area-rebuild",
+        "transcriptPath": "~/.codex/sessions/2026/11/04/rollout-2026-11-04T02-17-00-1cdcd8f2-0000-4000-8000-d600282558b3.jsonl",
+        "startedAt": "2026-11-04T02:17:00.000Z",
+        "lastActivityAt": "2026-11-04T03:02:00.000Z",
+        "resumeCount": 1,
+        "tokens": 4200000,
+        "firstPrompt": "Barrierefreiheits-Audit der Checkout-Strecke inklusive Screenreader-Tests",
+        "threadName": "Barrierefreiheits-Audit der Checkout-Strecke inklusive Screenreader-Tests",
+        "suggestedTitle": "Barrierefreiheits-Audit der Checkout-Strecke inklusive Screenreader-Tests",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-04T02:17:00.000Z",
+        "updatedAt": "2026-11-04T03:02:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cc_010e6c2a1-77b0-4c1d-9e2f-5a6b7c8d9e06",
+        "tool": "claude",
+        "nativeId": "010e6c2a1-77b0-4c1d-9e2f-5a6b7c8d9e06",
+        "entryId": "e_l6",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "cwd": "/Users/mira/projects/parkway-portal-customer-area-rebuild",
+        "transcriptPath": "~/.claude/projects/-Users-mira-projects-parkway-portal-customer-area-rebuild/010e6c2a1-77b0-4c1d-9e2f-5a6b7c8d9e06.jsonl",
+        "startedAt": "2026-11-04T00:42:00.000Z",
+        "lastActivityAt": "2026-11-04T01:27:00.000Z",
+        "resumeCount": 2,
+        "tokens": 4900000,
+        "firstPrompt": "Migration der Kundenkonten auf das neue Rechtemodell mit Rollen pro Mandant",
+        "threadName": null,
+        "suggestedTitle": "Migration der Kundenkonten auf das neue Rechtemodell mit Rollen pro Mandant",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-04T00:42:00.000Z",
+        "updatedAt": "2026-11-04T01:27:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cx_011e7c2a1-77b0-4c1d-9e2f-5a6b7c8d9e07",
+        "tool": "codex",
+        "nativeId": "011e7c2a1-77b0-4c1d-9e2f-5a6b7c8d9e07",
+        "entryId": "e_l7",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "cwd": "/Users/mira/projects/parkway-portal-customer-area-rebuild",
+        "transcriptPath": "~/.codex/sessions/2026/11/03/rollout-2026-11-03T23-07-00-011e7c2a1-77b0-4c1d-9e2f-5a6b7c8d9e07.jsonl",
+        "startedAt": "2026-11-03T23:07:00.000Z",
+        "lastActivityAt": "2026-11-03T23:52:00.000Z",
+        "resumeCount": 3,
+        "tokens": 5600000,
+        "firstPrompt": "Datenschutz-Folgenabschätzung für das Tracking im Partnerseite",
+        "threadName": "Datenschutz-Folgenabschätzung für das Tracking im Partnerseite",
+        "suggestedTitle": "Datenschutz-Folgenabschätzung für das Tracking im Partnerseite",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-03T23:07:00.000Z",
+        "updatedAt": "2026-11-03T23:52:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cx_012e8c2a1-77b0-4c1d-9e2f-5a6b7c8d9e08",
+        "tool": "codex",
+        "nativeId": "012e8c2a1-77b0-4c1d-9e2f-5a6b7c8d9e08",
+        "entryId": "e_l8",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "cwd": "/Users/mira/projects/parkway-portal-customer-area-rebuild",
+        "transcriptPath": "~/.codex/sessions/2026/11/03/rollout-2026-11-03T21-32-00-012e8c2a1-77b0-4c1d-9e2f-5a6b7c8d9e08.jsonl",
+        "startedAt": "2026-11-03T21:32:00.000Z",
+        "lastActivityAt": "2026-11-03T22:17:00.000Z",
+        "resumeCount": 4,
+        "tokens": 6300000,
+        "firstPrompt": "Performance-Budget für die Startseite unter 1,5 s auf 4G",
+        "threadName": "Performance-Budget für die Startseite unter 1,5 s auf 4G",
+        "suggestedTitle": "Performance-Budget für die Startseite unter 1,5 s auf 4G",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-03T21:32:00.000Z",
+        "updatedAt": "2026-11-03T22:17:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cc_013e9c2a1-77b0-4c1d-9e2f-5a6b7c8d9e09",
+        "tool": "claude",
+        "nativeId": "013e9c2a1-77b0-4c1d-9e2f-5a6b7c8d9e09",
+        "entryId": "e_l9",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "cwd": "/Users/mira/projects/parkway-portal-customer-area-rebuild",
+        "transcriptPath": "~/.claude/projects/-Users-mira-projects-parkway-portal-customer-area-rebuild/013e9c2a1-77b0-4c1d-9e2f-5a6b7c8d9e09.jsonl",
+        "startedAt": "2026-11-03T19:57:00.000Z",
+        "lastActivityAt": "2026-11-03T20:42:00.000Z",
+        "resumeCount": 5,
+        "tokens": 7000000,
+        "firstPrompt": "Rechtstexte-Synchronisation zwischen CMS und Portal",
+        "threadName": null,
+        "suggestedTitle": "Rechtstexte-Synchronisation zwischen CMS und Portal",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-03T19:57:00.000Z",
+        "updatedAt": "2026-11-03T20:42:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cx_014e10c2a1-77b0-4c1d-9e2f-5a6b7c8d9e10",
+        "tool": "codex",
+        "nativeId": "014e10c2a1-77b0-4c1d-9e2f-5a6b7c8d9e10",
+        "entryId": "e_l10",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "cwd": "/Users/mira/projects/parkway-portal-customer-area-rebuild",
+        "transcriptPath": "~/.codex/sessions/2026/11/03/rollout-2026-11-03T18-22-00-014e10c2a1-77b0-4c1d-9e2f-5a6b7c8d9e10.jsonl",
+        "startedAt": "2026-11-03T18:22:00.000Z",
+        "lastActivityAt": "2026-11-03T19:07:00.000Z",
+        "resumeCount": 1,
+        "tokens": 7700000,
+        "firstPrompt": "Barrierefreiheits-Audit der Checkout-Strecke inklusive Screenreader-Tests",
+        "threadName": "Barrierefreiheits-Audit der Checkout-Strecke inklusive Screenreader-Tests",
+        "suggestedTitle": "Barrierefreiheits-Audit der Checkout-Strecke inklusive Screenreader-Tests",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-03T18:22:00.000Z",
+        "updatedAt": "2026-11-03T19:07:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cx_015e11c2a1-77b0-4c1d-9e2f-5a6b7c8d9e11",
+        "tool": "codex",
+        "nativeId": "015e11c2a1-77b0-4c1d-9e2f-5a6b7c8d9e11",
+        "entryId": "e_l11",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "cwd": "/Users/mira/projects/parkway-portal-customer-area-rebuild",
+        "transcriptPath": "~/.codex/sessions/2026/11/03/rollout-2026-11-03T16-47-00-015e11c2a1-77b0-4c1d-9e2f-5a6b7c8d9e11.jsonl",
+        "startedAt": "2026-11-03T16:47:00.000Z",
+        "lastActivityAt": "2026-11-03T17:32:00.000Z",
+        "resumeCount": 2,
+        "tokens": 8400000,
+        "firstPrompt": "Migration der Kundenkonten auf das neue Rechtemodell mit Rollen pro Mandant",
+        "threadName": "Migration der Kundenkonten auf das neue Rechtemodell mit Rollen pro Mandant",
+        "suggestedTitle": "Migration der Kundenkonten auf das neue Rechtemodell mit Rollen pro Mandant",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-03T16:47:00.000Z",
+        "updatedAt": "2026-11-03T17:32:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cc_016e12c2a1-77b0-4c1d-9e2f-5a6b7c8d9e12",
+        "tool": "claude",
+        "nativeId": "016e12c2a1-77b0-4c1d-9e2f-5a6b7c8d9e12",
+        "entryId": "e_l12",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "cwd": "/Users/mira/projects/parkway-portal-customer-area-rebuild",
+        "transcriptPath": "~/.claude/projects/-Users-mira-projects-parkway-portal-customer-area-rebuild/016e12c2a1-77b0-4c1d-9e2f-5a6b7c8d9e12.jsonl",
+        "startedAt": "2026-11-03T15:12:00.000Z",
+        "lastActivityAt": "2026-11-03T15:57:00.000Z",
+        "resumeCount": 3,
+        "tokens": 9100000,
+        "firstPrompt": "Datenschutz-Folgenabschätzung für das Tracking im Partnerseite",
+        "threadName": null,
+        "suggestedTitle": "Datenschutz-Folgenabschätzung für das Tracking im Partnerseite",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-03T15:12:00.000Z",
+        "updatedAt": "2026-11-03T15:57:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cx_017e13c2a1-77b0-4c1d-9e2f-5a6b7c8d9e13",
+        "tool": "codex",
+        "nativeId": "017e13c2a1-77b0-4c1d-9e2f-5a6b7c8d9e13",
+        "entryId": "e_l13",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "cwd": "/Users/mira/projects/parkway-portal-customer-area-rebuild",
+        "transcriptPath": "~/.codex/sessions/2026/11/03/rollout-2026-11-03T13-37-00-017e13c2a1-77b0-4c1d-9e2f-5a6b7c8d9e13.jsonl",
+        "startedAt": "2026-11-03T13:37:00.000Z",
+        "lastActivityAt": "2026-11-03T14:22:00.000Z",
+        "resumeCount": 4,
+        "tokens": 9800000,
+        "firstPrompt": "Performance-Budget für die Startseite unter 1,5 s auf 4G",
+        "threadName": "Performance-Budget für die Startseite unter 1,5 s auf 4G",
+        "suggestedTitle": "Performance-Budget für die Startseite unter 1,5 s auf 4G",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-03T13:37:00.000Z",
+        "updatedAt": "2026-11-03T14:22:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cx_018e14c2a1-77b0-4c1d-9e2f-5a6b7c8d9e14",
+        "tool": "codex",
+        "nativeId": "018e14c2a1-77b0-4c1d-9e2f-5a6b7c8d9e14",
+        "entryId": "e_l14",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "cwd": "/Users/mira/projects/parkway-portal-customer-area-rebuild",
+        "transcriptPath": "~/.codex/sessions/2026/11/03/rollout-2026-11-03T12-02-00-018e14c2a1-77b0-4c1d-9e2f-5a6b7c8d9e14.jsonl",
+        "startedAt": "2026-11-03T12:02:00.000Z",
+        "lastActivityAt": "2026-11-03T12:47:00.000Z",
+        "resumeCount": 5,
+        "tokens": 10500000,
+        "firstPrompt": "Rechtstexte-Synchronisation zwischen CMS und Portal",
+        "threadName": "Rechtstexte-Synchronisation zwischen CMS und Portal",
+        "suggestedTitle": "Rechtstexte-Synchronisation zwischen CMS und Portal",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-03T12:02:00.000Z",
+        "updatedAt": "2026-11-03T12:47:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cc_019e15c2a1-77b0-4c1d-9e2f-5a6b7c8d9e15",
+        "tool": "claude",
+        "nativeId": "019e15c2a1-77b0-4c1d-9e2f-5a6b7c8d9e15",
+        "entryId": "e_l15",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "cwd": "/Users/mira/projects/parkway-portal-customer-area-rebuild",
+        "transcriptPath": "~/.claude/projects/-Users-mira-projects-parkway-portal-customer-area-rebuild/019e15c2a1-77b0-4c1d-9e2f-5a6b7c8d9e15.jsonl",
+        "startedAt": "2026-11-03T10:27:00.000Z",
+        "lastActivityAt": "2026-11-03T11:12:00.000Z",
+        "resumeCount": 1,
+        "tokens": 11200000,
+        "firstPrompt": "Barrierefreiheits-Audit der Checkout-Strecke inklusive Screenreader-Tests",
+        "threadName": null,
+        "suggestedTitle": "Barrierefreiheits-Audit der Checkout-Strecke inklusive Screenreader-Tests",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-03T10:27:00.000Z",
+        "updatedAt": "2026-11-03T11:12:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cx_01ae16c2a1-77b0-4c1d-9e2f-5a6b7c8d9e16",
+        "tool": "codex",
+        "nativeId": "01ae16c2a1-77b0-4c1d-9e2f-5a6b7c8d9e16",
+        "entryId": "e_l16",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "cwd": "/Users/mira/projects/parkway-portal-customer-area-rebuild",
+        "transcriptPath": "~/.codex/sessions/2026/11/03/rollout-2026-11-03T08-52-00-01ae16c2a1-77b0-4c1d-9e2f-5a6b7c8d9e16.jsonl",
+        "startedAt": "2026-11-03T08:52:00.000Z",
+        "lastActivityAt": "2026-11-03T09:37:00.000Z",
+        "resumeCount": 2,
+        "tokens": 11900000,
+        "firstPrompt": "Migration der Kundenkonten auf das neue Rechtemodell mit Rollen pro Mandant",
+        "threadName": "Migration der Kundenkonten auf das neue Rechtemodell mit Rollen pro Mandant",
+        "suggestedTitle": "Migration der Kundenkonten auf das neue Rechtemodell mit Rollen pro Mandant",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-03T08:52:00.000Z",
+        "updatedAt": "2026-11-03T09:37:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cx_01be17c2a1-77b0-4c1d-9e2f-5a6b7c8d9e17",
+        "tool": "codex",
+        "nativeId": "01be17c2a1-77b0-4c1d-9e2f-5a6b7c8d9e17",
+        "entryId": "e_l17",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "cwd": "/Users/mira/projects/parkway-portal-customer-area-rebuild",
+        "transcriptPath": "~/.codex/sessions/2026/11/03/rollout-2026-11-03T07-17-00-01be17c2a1-77b0-4c1d-9e2f-5a6b7c8d9e17.jsonl",
+        "startedAt": "2026-11-03T07:17:00.000Z",
+        "lastActivityAt": "2026-11-03T08:02:00.000Z",
+        "resumeCount": 3,
+        "tokens": 12600000,
+        "firstPrompt": "Datenschutz-Folgenabschätzung für das Tracking im Partnerseite",
+        "threadName": "Datenschutz-Folgenabschätzung für das Tracking im Partnerseite",
+        "suggestedTitle": "Datenschutz-Folgenabschätzung für das Tracking im Partnerseite",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-03T07:17:00.000Z",
+        "updatedAt": "2026-11-03T08:02:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cc_01ce18c2a1-77b0-4c1d-9e2f-5a6b7c8d9e18",
+        "tool": "claude",
+        "nativeId": "01ce18c2a1-77b0-4c1d-9e2f-5a6b7c8d9e18",
+        "entryId": "e_l18",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "cwd": "/Users/mira/projects/parkway-portal-customer-area-rebuild",
+        "transcriptPath": "~/.claude/projects/-Users-mira-projects-parkway-portal-customer-area-rebuild/01ce18c2a1-77b0-4c1d-9e2f-5a6b7c8d9e18.jsonl",
+        "startedAt": "2026-11-03T05:42:00.000Z",
+        "lastActivityAt": "2026-11-03T06:27:00.000Z",
+        "resumeCount": 4,
+        "tokens": 13300000,
+        "firstPrompt": "Performance-Budget für die Startseite unter 1,5 s auf 4G",
+        "threadName": null,
+        "suggestedTitle": "Performance-Budget für die Startseite unter 1,5 s auf 4G",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-03T05:42:00.000Z",
+        "updatedAt": "2026-11-03T06:27:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cx_01de19c2a1-77b0-4c1d-9e2f-5a6b7c8d9e19",
+        "tool": "codex",
+        "nativeId": "01de19c2a1-77b0-4c1d-9e2f-5a6b7c8d9e19",
+        "entryId": "e_l19",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "cwd": "/Users/mira/projects/parkway-portal-customer-area-rebuild",
+        "transcriptPath": "~/.codex/sessions/2026/11/03/rollout-2026-11-03T04-07-00-01de19c2a1-77b0-4c1d-9e2f-5a6b7c8d9e19.jsonl",
+        "startedAt": "2026-11-03T04:07:00.000Z",
+        "lastActivityAt": "2026-11-03T04:52:00.000Z",
+        "resumeCount": 5,
+        "tokens": 14000000,
+        "firstPrompt": "Rechtstexte-Synchronisation zwischen CMS und Portal",
+        "threadName": "Rechtstexte-Synchronisation zwischen CMS und Portal",
+        "suggestedTitle": "Rechtstexte-Synchronisation zwischen CMS und Portal",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-03T04:07:00.000Z",
+        "updatedAt": "2026-11-03T04:52:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cx_01ee20c2a1-77b0-4c1d-9e2f-5a6b7c8d9e20",
+        "tool": "codex",
+        "nativeId": "01ee20c2a1-77b0-4c1d-9e2f-5a6b7c8d9e20",
+        "entryId": "e_l20",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "cwd": "/Users/mira/projects/parkway-portal-customer-area-rebuild",
+        "transcriptPath": "~/.codex/sessions/2026/11/03/rollout-2026-11-03T02-32-00-01ee20c2a1-77b0-4c1d-9e2f-5a6b7c8d9e20.jsonl",
+        "startedAt": "2026-11-03T02:32:00.000Z",
+        "lastActivityAt": "2026-11-03T03:17:00.000Z",
+        "resumeCount": 1,
+        "tokens": 14700000,
+        "firstPrompt": "Barrierefreiheits-Audit der Checkout-Strecke inklusive Screenreader-Tests",
+        "threadName": "Barrierefreiheits-Audit der Checkout-Strecke inklusive Screenreader-Tests",
+        "suggestedTitle": "Barrierefreiheits-Audit der Checkout-Strecke inklusive Screenreader-Tests",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-03T02:32:00.000Z",
+        "updatedAt": "2026-11-03T03:17:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cc_01fe21c2a1-77b0-4c1d-9e2f-5a6b7c8d9e21",
+        "tool": "claude",
+        "nativeId": "01fe21c2a1-77b0-4c1d-9e2f-5a6b7c8d9e21",
+        "entryId": "e_l21",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "cwd": "/Users/mira/projects/parkway-portal-customer-area-rebuild",
+        "transcriptPath": "~/.claude/projects/-Users-mira-projects-parkway-portal-customer-area-rebuild/01fe21c2a1-77b0-4c1d-9e2f-5a6b7c8d9e21.jsonl",
+        "startedAt": "2026-11-03T00:57:00.000Z",
+        "lastActivityAt": "2026-11-03T01:42:00.000Z",
+        "resumeCount": 2,
+        "tokens": 15400000,
+        "firstPrompt": "Migration der Kundenkonten auf das neue Rechtemodell mit Rollen pro Mandant",
+        "threadName": null,
+        "suggestedTitle": "Migration der Kundenkonten auf das neue Rechtemodell mit Rollen pro Mandant",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-03T00:57:00.000Z",
+        "updatedAt": "2026-11-03T01:42:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cx_020e22c2a1-77b0-4c1d-9e2f-5a6b7c8d9e22",
+        "tool": "codex",
+        "nativeId": "020e22c2a1-77b0-4c1d-9e2f-5a6b7c8d9e22",
+        "entryId": "e_l22",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "cwd": "/Users/mira/projects/parkway-portal-customer-area-rebuild",
+        "transcriptPath": "~/.codex/sessions/2026/11/02/rollout-2026-11-02T23-22-00-020e22c2a1-77b0-4c1d-9e2f-5a6b7c8d9e22.jsonl",
+        "startedAt": "2026-11-02T23:22:00.000Z",
+        "lastActivityAt": "2026-11-03T00:07:00.000Z",
+        "resumeCount": 3,
+        "tokens": 16100000,
+        "firstPrompt": "Datenschutz-Folgenabschätzung für das Tracking im Partnerseite",
+        "threadName": "Datenschutz-Folgenabschätzung für das Tracking im Partnerseite",
+        "suggestedTitle": "Datenschutz-Folgenabschätzung für das Tracking im Partnerseite",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-02T23:22:00.000Z",
+        "updatedAt": "2026-11-03T00:07:00.000Z",
+        "schemaVersion": 2
+      },
+      {
+        "id": "cx_021e23c2a1-77b0-4c1d-9e2f-5a6b7c8d9e23",
+        "tool": "codex",
+        "nativeId": "021e23c2a1-77b0-4c1d-9e2f-5a6b7c8d9e23",
+        "entryId": "e_l23",
+        "projectId": "prj_parkway-portal-customer-area-rebuild",
+        "cwd": "/Users/mira/projects/parkway-portal-customer-area-rebuild",
+        "transcriptPath": "~/.codex/sessions/2026/11/02/rollout-2026-11-02T21-47-00-021e23c2a1-77b0-4c1d-9e2f-5a6b7c8d9e23.jsonl",
+        "startedAt": "2026-11-02T21:47:00.000Z",
+        "lastActivityAt": "2026-11-02T22:32:00.000Z",
+        "resumeCount": 4,
+        "tokens": 16800000,
+        "firstPrompt": "Performance-Budget für die Startseite unter 1,5 s auf 4G",
+        "threadName": "Performance-Budget für die Startseite unter 1,5 s auf 4G",
+        "suggestedTitle": "Performance-Budget für die Startseite unter 1,5 s auf 4G",
+        "resumable": true,
+        "live": {
+          "running": false,
+          "pid": null,
+          "tty": null,
+          "terminalApp": null,
+          "windowIndex": null
+        },
+        "createdAt": "2026-11-02T21:47:00.000Z",
+        "updatedAt": "2026-11-02T22:32:00.000Z",
+        "schemaVersion": 2
+      }
+    ],
+    "windows": {
+      "open": 9,
+      "closable": 2
+    },
+    "justEnded": [],
+    "changes": [],
+    "_screen": "M01",
+    "_state": "lang",
+    "_title": "resume · lange Namen, volle Liste"
+  },
+  "sortStrands": [
+    "e_l1",
+    "e_l13",
+    "e_l0",
+    "e_l2",
+    "e_l4",
+    "e_l5",
+    "e_l6",
+    "e_l8",
+    "e_l9",
+    "e_l10",
+    "e_l12",
+    "e_l14",
+    "e_l16",
+    "e_l17",
+    "e_l18",
+    "e_l20",
+    "e_l21",
+    "e_l22",
+    "e_l3",
+    "e_l7",
+    "e_l11",
+    "e_l15",
+    "e_l19",
+    "e_l23",
+    "e_s2",
+    "e_s6",
+    "e_s14",
+    "e_s1",
+    "e_s4",
+    "e_s9",
+    "e_s10",
+    "e_s5",
+    "e_s11",
+    "e_s17",
+    "e_s3",
+    "e_s16",
+    "e_s12",
+    "e_s13",
+    "e_s7",
+    "e_s8",
+    "e_s15"
+  ],
+  "sortTasks": [
+    "e_l99",
+    "e_t1",
+    "e_t4",
+    "e_t7",
+    "e_t5",
+    "e_t6",
+    "e_t2",
+    "e_t3",
+    "e_t8"
+  ],
+  "projectList": [
+    "prj_parkway-portal-customer-area-rebuild",
+    "prj_parkway-portal",
+    "prj_vesper_ios",
+    "prj_devboardkit",
+    "prj_resume_bar_mac",
+    "prj_local_runner",
+    "prj_bluefin_portal",
+    "prj_Dune",
+    null
+  ],
+  "urgentTasks": [
+    "e_l99",
+    "e_t1"
+  ],
+  "entries": [
+    {
+      "id": "e_s1",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Q2-Zuarbeiten für Mira prüfen"
+    },
+    {
+      "id": "e_s2",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Projektanalyse – wartet auf Freigabe"
+    },
+    {
+      "id": "e_s3",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "devtool-Blockaden untersuchen"
+    },
+    {
+      "id": "e_s4",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "CallKit-Anbindung prüfen"
+    },
+    {
+      "id": "e_s5",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Blogzugriff Basisversion fixen"
+    },
+    {
+      "id": "e_s6",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Hauptupdate undercover"
+    },
+    {
+      "id": "e_s7",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "projects/codex prüfen"
+    },
+    {
+      "id": "e_s8",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Preisliste-Check Kundenseiten"
+    },
+    {
+      "id": "e_s9",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Parkway Portal Velocity"
+    },
+    {
+      "id": "e_s10",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "resume bar -> finish"
+    },
+    {
+      "id": "e_s11",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Cleanpass /cleanup-Befehl"
+    },
+    {
+      "id": "e_s12",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Recherchiere lokale Coding-Modelle"
+    },
+    {
+      "id": "e_s13",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Logs der Nightly-Builds sichten"
+    },
+    {
+      "id": "e_s14",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Barrierefreiheit-Report"
+    },
+    {
+      "id": "e_s15",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Blog-Feed Caching"
+    },
+    {
+      "id": "e_s16",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Shell-Aliase aufräumen"
+    },
+    {
+      "id": "e_s17",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "0012 Bestellkonsole Umsetzung"
+    },
+    {
+      "id": "e_t1",
+      "dueState": "soon",
+      "dueShort": "time.weekday.5",
+      "titleOf": "Preisliste-Scanner für AT-Seiten"
+    },
+    {
+      "id": "e_t2",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Bestellkonsole: Export als PDF"
+    },
+    {
+      "id": "e_t3",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Push-Zustellung messen"
+    },
+    {
+      "id": "e_t4",
+      "dueState": "later",
+      "dueShort": "14.11",
+      "titleOf": "Aufgaben-Feature bauen"
+    },
+    {
+      "id": "e_t5",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Qwen-Coder gegen Codex benchmarken"
+    },
+    {
+      "id": "e_t6",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Produktdaten-Import prüfen"
+    },
+    {
+      "id": "e_t7",
+      "dueState": "later",
+      "dueShort": "15.11",
+      "titleOf": "Steuerunterlagen 2026 sortieren"
+    },
+    {
+      "id": "e_t8",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Lokales Modell für Commit-Messages testen"
+    },
+    {
+      "id": "e_l0",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Barrierefreiheits-Audit der Checkout-Strecke inklusive Screenreader-Tests"
+    },
+    {
+      "id": "e_l1",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Migration der Kundenkonten auf das neue Rechtemodell mit Rollen pro Mandant"
+    },
+    {
+      "id": "e_l2",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Datenschutz-Folgenabschätzung für das Tracking im Partnerseite"
+    },
+    {
+      "id": "e_l3",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Performance-Budget für die Startseite unter 1,5 s auf 4G"
+    },
+    {
+      "id": "e_l4",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Rechtstexte-Synchronisation zwischen CMS und Portal"
+    },
+    {
+      "id": "e_l5",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Barrierefreiheits-Audit der Checkout-Strecke inklusive Screenreader-Tests · Teil 2"
+    },
+    {
+      "id": "e_l6",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Migration der Kundenkonten auf das neue Rechtemodell mit Rollen pro Mandant · Teil 2"
+    },
+    {
+      "id": "e_l7",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Datenschutz-Folgenabschätzung für das Tracking im Partnerseite"
+    },
+    {
+      "id": "e_l8",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Performance-Budget für die Startseite unter 1,5 s auf 4G · Teil 2"
+    },
+    {
+      "id": "e_l9",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Rechtstexte-Synchronisation zwischen CMS und Portal · Teil 2"
+    },
+    {
+      "id": "e_l10",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Barrierefreiheits-Audit der Checkout-Strecke inklusive Screenreader-Tests · Teil 3"
+    },
+    {
+      "id": "e_l11",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Migration der Kundenkonten auf das neue Rechtemodell mit Rollen pro Mandant"
+    },
+    {
+      "id": "e_l12",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Datenschutz-Folgenabschätzung für das Tracking im Partnerseite · Teil 3"
+    },
+    {
+      "id": "e_l13",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Performance-Budget für die Startseite unter 1,5 s auf 4G · Teil 3"
+    },
+    {
+      "id": "e_l14",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Rechtstexte-Synchronisation zwischen CMS und Portal · Teil 3"
+    },
+    {
+      "id": "e_l15",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Barrierefreiheits-Audit der Checkout-Strecke inklusive Screenreader-Tests"
+    },
+    {
+      "id": "e_l16",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Migration der Kundenkonten auf das neue Rechtemodell mit Rollen pro Mandant · Teil 4"
+    },
+    {
+      "id": "e_l17",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Datenschutz-Folgenabschätzung für das Tracking im Partnerseite · Teil 4"
+    },
+    {
+      "id": "e_l18",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Performance-Budget für die Startseite unter 1,5 s auf 4G · Teil 4"
+    },
+    {
+      "id": "e_l19",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Rechtstexte-Synchronisation zwischen CMS und Portal"
+    },
+    {
+      "id": "e_l20",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Barrierefreiheits-Audit der Checkout-Strecke inklusive Screenreader-Tests · Teil 5"
+    },
+    {
+      "id": "e_l21",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Migration der Kundenkonten auf das neue Rechtemodell mit Rollen pro Mandant · Teil 5"
+    },
+    {
+      "id": "e_l22",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Datenschutz-Folgenabschätzung für das Tracking im Partnerseite · Teil 5"
+    },
+    {
+      "id": "e_l23",
+      "dueState": null,
+      "dueShort": null,
+      "titleOf": "Performance-Budget für die Startseite unter 1,5 s auf 4G"
+    },
+    {
+      "id": "e_l99",
+      "dueState": "soon",
+      "dueShort": "due.tomorrow",
+      "titleOf": "Migration der Kundenkonten auf das neue Rechtemodell mit Rollen pro Mandant – Rollen pro Mandant mit Vererbung"
+    }
+  ],
+  "strands": [
+    {
+      "id": "e_s1",
+      "isArchived": false,
+      "tier": 2
+    },
+    {
+      "id": "e_s2",
+      "isArchived": false,
+      "tier": 1
+    },
+    {
+      "id": "e_s3",
+      "isArchived": false,
+      "tier": 4
+    },
+    {
+      "id": "e_s4",
+      "isArchived": false,
+      "tier": 2
+    },
+    {
+      "id": "e_s5",
+      "isArchived": false,
+      "tier": 2
+    },
+    {
+      "id": "e_s6",
+      "isArchived": false,
+      "tier": 1
+    },
+    {
+      "id": "e_s7",
+      "isArchived": true,
+      "tier": 5
+    },
+    {
+      "id": "e_s8",
+      "isArchived": true,
+      "tier": 5
+    },
+    {
+      "id": "e_s9",
+      "isArchived": false,
+      "tier": 2
+    },
+    {
+      "id": "e_s10",
+      "isArchived": false,
+      "tier": 2
+    },
+    {
+      "id": "e_s11",
+      "isArchived": false,
+      "tier": 2
+    },
+    {
+      "id": "e_s12",
+      "isArchived": false,
+      "tier": 4
+    },
+    {
+      "id": "e_s13",
+      "isArchived": true,
+      "tier": 4
+    },
+    {
+      "id": "e_s14",
+      "isArchived": false,
+      "tier": 1
+    },
+    {
+      "id": "e_s15",
+      "isArchived": true,
+      "tier": 5
+    },
+    {
+      "id": "e_s16",
+      "isArchived": false,
+      "tier": 4
+    },
+    {
+      "id": "e_s17",
+      "isArchived": false,
+      "tier": 2
+    },
+    {
+      "id": "e_l0",
+      "isArchived": false,
+      "tier": 2
+    },
+    {
+      "id": "e_l1",
+      "isArchived": false,
+      "tier": 1
+    },
+    {
+      "id": "e_l2",
+      "isArchived": false,
+      "tier": 2
+    },
+    {
+      "id": "e_l3",
+      "isArchived": false,
+      "tier": 4
+    },
+    {
+      "id": "e_l4",
+      "isArchived": false,
+      "tier": 2
+    },
+    {
+      "id": "e_l5",
+      "isArchived": false,
+      "tier": 2
+    },
+    {
+      "id": "e_l6",
+      "isArchived": false,
+      "tier": 2
+    },
+    {
+      "id": "e_l7",
+      "isArchived": false,
+      "tier": 4
+    },
+    {
+      "id": "e_l8",
+      "isArchived": false,
+      "tier": 2
+    },
+    {
+      "id": "e_l9",
+      "isArchived": false,
+      "tier": 2
+    },
+    {
+      "id": "e_l10",
+      "isArchived": false,
+      "tier": 2
+    },
+    {
+      "id": "e_l11",
+      "isArchived": false,
+      "tier": 4
+    },
+    {
+      "id": "e_l12",
+      "isArchived": false,
+      "tier": 2
+    },
+    {
+      "id": "e_l13",
+      "isArchived": false,
+      "tier": 1
+    },
+    {
+      "id": "e_l14",
+      "isArchived": false,
+      "tier": 2
+    },
+    {
+      "id": "e_l15",
+      "isArchived": false,
+      "tier": 4
+    },
+    {
+      "id": "e_l16",
+      "isArchived": false,
+      "tier": 2
+    },
+    {
+      "id": "e_l17",
+      "isArchived": false,
+      "tier": 2
+    },
+    {
+      "id": "e_l18",
+      "isArchived": false,
+      "tier": 2
+    },
+    {
+      "id": "e_l19",
+      "isArchived": false,
+      "tier": 4
+    },
+    {
+      "id": "e_l20",
+      "isArchived": false,
+      "tier": 2
+    },
+    {
+      "id": "e_l21",
+      "isArchived": false,
+      "tier": 2
+    },
+    {
+      "id": "e_l22",
+      "isArchived": false,
+      "tier": 2
+    },
+    {
+      "id": "e_l23",
+      "isArchived": false,
+      "tier": 4
+    }
+  ],
+  "views": {
+    "own": [
+      {
+        "type": "entry",
+        "id": "e_l1",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l13",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l0",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l2",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l4",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l5",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l6",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l8",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l9",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l10",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l12",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l14",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l16",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l17",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l18",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l20",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l21",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l22",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l3",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l7",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l11",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l15",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l19",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l23",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_s2",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_s6",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_s14",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_s1",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_s4",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_s9",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_s10",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_s5",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_s11",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_s17",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_s3",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_s16",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_s12",
+        "flat": true
+      }
+    ],
+    "resume": [
+      {
+        "type": "entry",
+        "id": "e_l1",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l13",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l0",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l2",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l4",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l5",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l6",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l8",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l9",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l10",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l12",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l14",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l16",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l17",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l18",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l20",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l21",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l22",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l3",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l7",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l11",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l15",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l19",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_l23",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_s2",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_s6",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_s14",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_s1",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_s4",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_s9",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_s10",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_s5",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_s11",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_s17",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_s3",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_s16",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_s12",
+        "flat": true
+      }
+    ],
+    "aufgabe": [
+      {
+        "type": "entry",
+        "id": "e_l99",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_t1",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_t4",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_t7",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_t5",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_t6",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_t2",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_t3",
+        "flat": true
+      },
+      {
+        "type": "entry",
+        "id": "e_t8",
+        "flat": true
+      }
+    ],
+    "projekt": [
+      {
+        "type": "proj",
+        "id": "prj_parkway-portal-customer-area-rebuild",
+        "flat": null
+      },
+      {
+        "type": "entry",
+        "id": "e_l1",
+        "flat": false
+      },
+      {
+        "type": "entry",
+        "id": "e_l13",
+        "flat": false
+      },
+      {
+        "type": "entry",
+        "id": "e_l0",
+        "flat": false
+      },
+      {
+        "type": "entry",
+        "id": "e_l2",
+        "flat": false
+      },
+      {
+        "type": "entry",
+        "id": "e_l4",
+        "flat": false
+      },
+      {
+        "type": "entry",
+        "id": "e_l5",
+        "flat": false
+      },
+      {
+        "type": "entry",
+        "id": "e_l6",
+        "flat": false
+      },
+      {
+        "type": "entry",
+        "id": "e_l8",
+        "flat": false
+      },
+      {
+        "type": "entry",
+        "id": "e_l9",
+        "flat": false
+      },
+      {
+        "type": "entry",
+        "id": "e_l10",
+        "flat": false
+      },
+      {
+        "type": "entry",
+        "id": "e_l12",
+        "flat": false
+      },
+      {
+        "type": "entry",
+        "id": "e_l14",
+        "flat": false
+      },
+      {
+        "type": "entry",
+        "id": "e_l16",
+        "flat": false
+      },
+      {
+        "type": "entry",
+        "id": "e_l17",
+        "flat": false
+      },
+      {
+        "type": "entry",
+        "id": "e_l18",
+        "flat": false
+      },
+      {
+        "type": "entry",
+        "id": "e_l20",
+        "flat": false
+      },
+      {
+        "type": "entry",
+        "id": "e_l21",
+        "flat": false
+      },
+      {
+        "type": "entry",
+        "id": "e_l22",
+        "flat": false
+      },
+      {
+        "type": "entry",
+        "id": "e_l3",
+        "flat": false
+      },
+      {
+        "type": "entry",
+        "id": "e_l7",
+        "flat": false
+      },
+      {
+        "type": "entry",
+        "id": "e_l11",
+        "flat": false
+      },
+      {
+        "type": "entry",
+        "id": "e_l15",
+        "flat": false
+      },
+      {
+        "type": "entry",
+        "id": "e_l19",
+        "flat": false
+      },
+      {
+        "type": "entry",
+        "id": "e_l23",
+        "flat": false
+      },
+      {
+        "type": "entry",
+        "id": "e_l99",
+        "flat": false
+      },
+      {
+        "type": "proj",
+        "id": "prj_parkway-portal",
+        "flat": null
+      },
+      {
+        "type": "proj",
+        "id": "prj_vesper_ios",
+        "flat": null
+      },
+      {
+        "type": "proj",
+        "id": "prj_devboardkit",
+        "flat": null
+      },
+      {
+        "type": "proj",
+        "id": "prj_resume_bar_mac",
+        "flat": null
+      },
+      {
+        "type": "proj",
+        "id": "prj_local_runner",
+        "flat": null
+      },
+      {
+        "type": "proj",
+        "id": "prj_bluefin_portal",
+        "flat": null
+      },
+      {
+        "type": "proj",
+        "id": "prj_Dune",
+        "flat": null
+      },
+      {
+        "type": "proj",
+        "id": null,
+        "flat": null
+      }
+    ]
+  },
+  "deadlines": [
+    {
+      "word": "heute",
+      "date": "2026-11-04",
+      "input": "04.11"
+    },
+    {
+      "word": "morgen",
+      "date": "2026-11-05",
+      "input": "05.11"
+    },
+    {
+      "word": "übermorgen",
+      "date": "2026-11-06",
+      "input": "06.11"
+    },
+    {
+      "word": "fr",
+      "date": "2026-11-06",
+      "input": "06.11"
+    },
+    {
+      "word": "freitag",
+      "date": "2026-11-06",
+      "input": "06.11"
+    },
+    {
+      "word": "14.11",
+      "date": "2026-11-14",
+      "input": "14.11"
+    },
+    {
+      "word": "14.11.2026",
+      "date": "2026-11-14",
+      "input": "14.11"
+    },
+    {
+      "word": "01.01",
+      "date": "2027-01-01",
+      "input": "01.01"
+    },
+    {
+      "word": "so im text",
+      "date": null,
+      "input": null
+    },
+    {
+      "word": "do im text",
+      "date": null,
+      "input": null
+    },
+    {
+      "word": "31.02",
+      "date": null,
+      "input": null
+    }
+  ]
+}

@@ -1,0 +1,2498 @@
+{
+ "szenarien": [
+  {
+   "id": "R01",
+   "gruppe": "resume",
+   "titel": "Weitermachen: oberster Strang, läuft schon",
+   "start": "M01.kontext",
+   "schritte": [
+    "↵"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "strang: Projektanalyse – wartet auf Freigabe",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "Läuft in Ghostty · Fenster 3 · ttys004\nnach vorn geholt, keine zweite Instanz",
+    "daten": [],
+    "hinweise": [
+     "↵ zum fenster",
+     "⌘D deadline",
+     "⌘P titel",
+     "← → modus"
+    ],
+    "bridge": [
+     {
+      "msg": "entry.resume",
+      "entryId": "e_s2",
+      "sessionId": "cx_11c83683-0000-4000-8000-d4c6b2e18e7b",
+      "result": "focused"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R02",
+   "gruppe": "resume",
+   "titel": "Markierung bewegen",
+   "start": "M01.kontext",
+   "schritte": [
+    "↓",
+    "↓",
+    "↑"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "strang: CallKit-Anbindung prüfen",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": null,
+    "daten": [],
+    "hinweise": [
+     "↵ fortsetzen",
+     "⌘D deadline",
+     "⌘P titel",
+     "← → modus"
+    ],
+    "bridge": []
+   }
+  },
+  {
+   "id": "R03",
+   "gruppe": "resume",
+   "titel": "Suchen",
+   "start": "M01.kontext",
+   "schritte": [
+    "pp blog"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "pp blog",
+    "chips": [],
+    "markiert": "strang: Blogzugriff Basisversion fixen",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": null,
+    "daten": [],
+    "hinweise": [
+     "↵ fortsetzen",
+     "⌘D deadline",
+     "⌘P titel"
+    ],
+    "bridge": []
+   }
+  },
+  {
+   "id": "R04",
+   "gruppe": "resume",
+   "titel": "@ + ⇥ vervollständigt zum Projekt-Chip",
+   "start": "M01.kontext",
+   "schritte": [
+    "@par",
+    "⇥"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [
+     "@parkway-portal"
+    ],
+    "markiert": "ziel: Preisliste-Scanner für AT-Seiten",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": null,
+    "daten": [],
+    "hinweise": [
+     "↵ starten",
+     "⌘D deadline",
+     "⇥ projekt",
+     "← → modus"
+    ],
+    "bridge": []
+   }
+  },
+  {
+   "id": "R05",
+   "gruppe": "resume",
+   "titel": "Präfix wird Chip, ⌫ entfernt ihn",
+   "start": "M01.kontext",
+   "schritte": [
+    "cx ",
+    "⌫"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "strang: Projektanalyse – wartet auf Freigabe",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": null,
+    "daten": [],
+    "hinweise": [
+     "↵ zum fenster",
+     "⌘D deadline",
+     "⌘P titel",
+     "← → modus"
+    ],
+    "bridge": []
+   }
+  },
+  {
+   "id": "R06",
+   "gruppe": "resume",
+   "titel": "⌫ im leeren Feld entfernt den Kontext",
+   "start": "M01.kontext",
+   "schritte": [
+    "⌫"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "strang: Projektanalyse – wartet auf Freigabe",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": null,
+    "daten": [],
+    "hinweise": [
+     "↵ zum fenster",
+     "⌘D deadline",
+     "⌘P titel",
+     "← → modus"
+    ],
+    "bridge": []
+   }
+  },
+  {
+   "id": "R07",
+   "gruppe": "resume",
+   "titel": "Kein Treffer, ↵ startet neuen Strang mit Codex",
+   "start": "M01.kontext",
+   "schritte": [
+    "stripe webhook",
+    "↵"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "strang: stripe webhook",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "Ghostty › neues Fenster\n$ cd ~/projects/vesper_ios\n$ codex \"stripe webhook\"",
+    "daten": [
+     {
+      "neu": "e_new26",
+      "title": "stripe webhook",
+      "projectId": "prj_vesper_ios",
+      "deadline": null,
+      "sessions": 1
+     },
+     {
+      "fenster": [
+       "9/2",
+       "10/2"
+      ]
+     }
+    ],
+    "hinweise": [
+     "⌘Z rückgängig",
+     "↵ zum fenster",
+     "⌘D deadline",
+     "⌘P titel"
+    ],
+    "bridge": [
+     {
+      "msg": "entry.newStrang",
+      "title": "stripe webhook",
+      "projectId": "prj_vesper_ios",
+      "tool": "codex"
+     },
+     {
+      "msg": "entry.start",
+      "entryId": "e_new26",
+      "tool": "codex"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R08",
+   "gruppe": "resume",
+   "titel": "Kein Treffer, ⇧↵ startet mit Claude Code",
+   "start": "M01.kontext",
+   "schritte": [
+    "stripe webhook",
+    "⇧↵"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "strang: stripe webhook",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "Ghostty › neues Fenster\n$ cd ~/projects/vesper_ios\n$ claude \"stripe webhook\"",
+    "daten": [
+     {
+      "neu": "e_new26",
+      "title": "stripe webhook",
+      "projectId": "prj_vesper_ios",
+      "deadline": null,
+      "sessions": 1
+     },
+     {
+      "fenster": [
+       "9/2",
+       "10/2"
+      ]
+     }
+    ],
+    "hinweise": [
+     "⌘Z rückgängig",
+     "↵ zum fenster",
+     "⌘D deadline",
+     "⌘P titel"
+    ],
+    "bridge": [
+     {
+      "msg": "entry.newStrang",
+      "title": "stripe webhook",
+      "projectId": "prj_vesper_ios",
+      "tool": "claude"
+     },
+     {
+      "msg": "entry.start",
+      "entryId": "e_new26",
+      "tool": "claude"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R09",
+   "gruppe": "resume",
+   "titel": "Strang, der nicht läuft: ↵ öffnet neues Fenster",
+   "start": "M01.kontext",
+   "schritte": [
+    "↓",
+    "↵"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "strang: CallKit-Anbindung prüfen",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "Ghostty › neues Fenster\n$ cd ~/projects/vesper_ios\n$ claude --resume 033385f9-0000-4000-8000-7ec4933aa8e2",
+    "daten": [
+     {
+      "fenster": [
+       "9/2",
+       "10/2"
+      ]
+     }
+    ],
+    "hinweise": [
+     "↵ zum fenster",
+     "⌘D deadline",
+     "⌘P titel",
+     "← → modus"
+    ],
+    "bridge": [
+     {
+      "msg": "entry.resume",
+      "entryId": "e_s4",
+      "sessionId": "cc_033385f9-0000-4000-8000-7ec4933aa8e2",
+      "terminal": "ghostty",
+      "result": "opened"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R10",
+   "gruppe": "resume",
+   "titel": "⌥↵ nimmt das andere Terminal",
+   "start": "M01.kontext",
+   "schritte": [
+    "↓",
+    "⌥↵"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "strang: CallKit-Anbindung prüfen",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "Terminal.app › neues Fenster\n$ cd ~/projects/vesper_ios\n$ claude --resume 033385f9-0000-4000-8000-7ec4933aa8e2",
+    "daten": [
+     {
+      "fenster": [
+       "9/2",
+       "10/2"
+      ]
+     }
+    ],
+    "hinweise": [
+     "↵ zum fenster",
+     "⌘D deadline",
+     "⌘P titel",
+     "← → modus"
+    ],
+    "bridge": [
+     {
+      "msg": "entry.resume",
+      "entryId": "e_s4",
+      "sessionId": "cc_033385f9-0000-4000-8000-7ec4933aa8e2",
+      "terminal": "terminal",
+      "result": "opened"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R11",
+   "gruppe": "resume",
+   "titel": "Verlauf fehlt: ↵ startet nichts",
+   "start": "M01.fehler",
+   "schritte": [
+    "↵"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "strang: CallKit-Anbindung prüfen",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "Verlauf nicht gefunden: ~/.claude/projects/-Users-mira-projects-vesper-ios/033385f9-0000-4000-8000-7ec4933aa8e2.jsonl\n⌘⌫ markiert den Strang als erledigt.",
+    "daten": [],
+    "hinweise": [
+     "⌘⌫ erledigt",
+     "⌘D deadline",
+     "⌘P titel",
+     "← → modus"
+    ],
+    "bridge": [
+     {
+      "msg": "entry.resume",
+      "entryId": "e_s4",
+      "sessionId": "cc_033385f9-0000-4000-8000-7ec4933aa8e2",
+      "result": "not_resumable"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R12",
+   "gruppe": "resume",
+   "titel": "⌘↑ / ⌘↓ Sessions eines Strangs, ↵ auf einer Session",
+   "start": "M01.kontext",
+   "schritte": [
+    "↓×3",
+    "↵",
+    "↓×2",
+    "⌘↓",
+    "↓",
+    "↵"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "session: Deckel über Hauptupdate",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "Ghostty › neues Fenster\n$ cd ~/projects/parkway-portal\n$ claude --resume 0016cc0a-0000-4000-8000-dc038c456da1",
+    "daten": [
+     {
+      "fenster": [
+       "9/2",
+       "10/2"
+      ]
+     }
+    ],
+    "hinweise": [
+     "↵ zum fenster",
+     "⌘C befehl",
+     "← → modus"
+    ],
+    "bridge": [
+     {
+      "msg": "entry.resume",
+      "entryId": "e_s6",
+      "sessionId": "cc_0016cc0a-0000-4000-8000-dc038c456da1",
+      "terminal": "ghostty",
+      "result": "opened"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R13",
+   "gruppe": "resume",
+   "titel": "⌘P Titel bearbeiten und speichern",
+   "start": "M01.kontext",
+   "schritte": [
+    "⌘P",
+    " (v2)",
+    "↵"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "strang: Projektanalyse – wartet auf Freigabe (v2)",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "Titel gespeichert · ⌘Z rückgängig",
+    "daten": [
+     {
+      "id": "e_s2",
+      "title": [
+       "Projektanalyse – wartet auf Freigabe",
+       "Projektanalyse – wartet auf Freigabe (v2)"
+      ]
+     }
+    ],
+    "hinweise": [
+     "⌘Z rückgängig",
+     "↵ zum fenster",
+     "⌘D deadline",
+     "⌘P titel"
+    ],
+    "bridge": [
+     {
+      "msg": "entry.setTitle",
+      "entryId": "e_s2",
+      "title": "Projektanalyse – wartet auf Freigabe (v2)"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R14",
+   "gruppe": "resume",
+   "titel": "⌘P abbrechen mit esc",
+   "start": "M01.kontext",
+   "schritte": [
+    "⌘P",
+    " x",
+    "esc"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "strang: Projektanalyse – wartet auf Freigabe",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": null,
+    "daten": [],
+    "hinweise": [
+     "↵ zum fenster",
+     "⌘D deadline",
+     "⌘P titel",
+     "← → modus"
+    ],
+    "bridge": []
+   }
+  },
+  {
+   "id": "R15",
+   "gruppe": "resume",
+   "titel": "⌘S zweimal: offen → wartet → erledigt",
+   "start": "M01.kontext",
+   "schritte": [
+    "↓",
+    "⌘S",
+    "⌘S"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "strang: CallKit-Anbindung prüfen",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "Status: erledigt · ⌘Z rückgängig",
+    "daten": [
+     {
+      "id": "e_s4",
+      "title": "CallKit-Anbindung prüfen",
+      "status": [
+       "offen",
+       "erledigt"
+      ]
+     }
+    ],
+    "hinweise": [
+     "⌘Z rückgängig",
+     "↵ fortsetzen",
+     "⌘D deadline",
+     "⌘P titel"
+    ],
+    "bridge": [
+     {
+      "msg": "entry.cycleStatus",
+      "entryId": "e_s4",
+      "from": "offen",
+      "to": "wartet"
+     },
+     {
+      "msg": "entry.cycleStatus",
+      "entryId": "e_s4",
+      "from": "wartet",
+      "to": "erledigt"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R16",
+   "gruppe": "resume",
+   "titel": "⌘S, dann ⌘Z",
+   "start": "M01.kontext",
+   "schritte": [
+    "↓",
+    "⌘S",
+    "⌘Z"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "strang: CallKit-Anbindung prüfen",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "Rückgängig: Status",
+    "daten": [],
+    "hinweise": [
+     "↵ fortsetzen",
+     "⌘D deadline",
+     "⌘P titel",
+     "← → modus"
+    ],
+    "bridge": [
+     {
+      "msg": "entry.cycleStatus",
+      "entryId": "e_s4",
+      "from": "offen",
+      "to": "wartet"
+     },
+     {
+      "msg": "undo",
+      "label": "Status"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R17",
+   "gruppe": "resume",
+   "titel": "⌘⌫ erledigt, ⌘Z holt zurück",
+   "start": "M01.kontext",
+   "schritte": [
+    "⌘⌫",
+    "⌘Z"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "strang: CallKit-Anbindung prüfen",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "Rückgängig: Erledigt",
+    "daten": [],
+    "hinweise": [
+     "↵ fortsetzen",
+     "⌘D deadline",
+     "⌘P titel",
+     "← → modus"
+    ],
+    "bridge": [
+     {
+      "msg": "entry.archive",
+      "entryId": "e_s2"
+     },
+     {
+      "msg": "undo",
+      "label": "Erledigt"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R18",
+   "gruppe": "resume",
+   "titel": "⌘C kopiert den Befehl",
+   "start": "M01.kontext",
+   "schritte": [
+    "⌘C"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "strang: Projektanalyse – wartet auf Freigabe",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "Befehl kopiert\ncodex resume 11c83683-0000-4000-8000-d4c6b2e18e7b",
+    "daten": [],
+    "hinweise": [
+     "↵ zum fenster",
+     "⌘D deadline",
+     "⌘P titel",
+     "← → modus"
+    ],
+    "bridge": [
+     {
+      "msg": "clipboard.copyCommand",
+      "sessionId": "cx_11c83683-0000-4000-8000-d4c6b2e18e7b"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R19",
+   "gruppe": "resume",
+   "titel": "⌘⇧W räumt Fenster auf, ⌘Z öffnet wieder",
+   "start": "M01.aufraeumen",
+   "schritte": [
+    "⌘⇧W",
+    "⌘Z"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "strang: Projektanalyse – wartet auf Freigabe",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "Rückgängig: Aufräumen",
+    "daten": [],
+    "hinweise": [
+     "↵ zum fenster",
+     "⌘D deadline",
+     "⌘P titel",
+     "← → modus"
+    ],
+    "bridge": [
+     {
+      "msg": "windows.cleanup"
+     },
+     {
+      "msg": "undo",
+      "label": "Aufräumen"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R20",
+   "gruppe": "resume",
+   "titel": "⌘/ Hilfe auf und zu",
+   "start": "M01.kontext",
+   "schritte": [
+    "⌘/",
+    "esc"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "strang: Projektanalyse – wartet auf Freigabe",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": null,
+    "daten": [],
+    "hinweise": [
+     "↵ zum fenster",
+     "⌘D deadline",
+     "⌘P titel",
+     "← → modus"
+    ],
+    "bridge": []
+   }
+  },
+  {
+   "id": "R21",
+   "gruppe": "resume",
+   "titel": "esc: erst Feld leeren, dann Popover zu",
+   "start": "M01.kontext",
+   "schritte": [
+    "abc",
+    "esc",
+    "esc"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "strang: Projektanalyse – wartet auf Freigabe",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "Popover schließt sich",
+    "daten": [],
+    "hinweise": [
+     "↵ zum fenster",
+     "⌘D deadline",
+     "⌘P titel",
+     "← → modus"
+    ],
+    "bridge": [
+     {
+      "msg": "popover.close"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R22",
+   "gruppe": "resume",
+   "titel": "Gerade beendet: ⇥ übernimmt Vorschlag, ↵ benennt",
+   "start": "M01.gerade-beendet",
+   "schritte": [
+    "⇥",
+    "↵"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "strang: Projektanalyse – wartet auf Freigabe",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "Benannt in devboardkit: devtool-Blockaden untersuchen",
+    "daten": [
+     {
+      "id": "e_s3",
+      "title": [
+       null,
+       "devtool-Blockaden untersuchen"
+      ]
+     }
+    ],
+    "hinweise": [
+     "⌘Z rückgängig",
+     "↵ zum fenster",
+     "⌘D deadline",
+     "⌘P titel"
+    ],
+    "bridge": [
+     {
+      "msg": "justEnded.name",
+      "entryId": "e_s3",
+      "title": "devtool-Blockaden untersuchen"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R23",
+   "gruppe": "resume",
+   "titel": "Gerade beendet: esc = später",
+   "start": "M01.gerade-beendet",
+   "schritte": [
+    "esc"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "strang: Projektanalyse – wartet auf Freigabe",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": null,
+    "daten": [],
+    "hinweise": [
+     "↵ zum fenster",
+     "⌘D deadline",
+     "⌘P titel",
+     "← → modus"
+    ],
+    "bridge": [
+     {
+      "msg": "justEnded.dismiss"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R24",
+   "gruppe": "resume",
+   "titel": "Seit zuletzt: ↵ übernimmt alle",
+   "start": "M01.seit-zuletzt",
+   "schritte": [
+    "↵"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "strang: Projektanalyse – wartet auf Freigabe",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "Änderungen übernommen",
+    "daten": [
+     {
+      "seitZuletzt": [
+       3,
+       0
+      ]
+     }
+    ],
+    "hinweise": [
+     "↵ zum fenster",
+     "⌘D deadline",
+     "⌘P titel",
+     "← → modus"
+    ],
+    "bridge": [
+     {
+      "msg": "changes.accept"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R25",
+   "gruppe": "resume",
+   "titel": "Seit zuletzt: ↓ wählt, ⌘⌫ verwirft eine Änderung",
+   "start": "M01.seit-zuletzt",
+   "schritte": [
+    "↓",
+    "⌘⌫"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "strip",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "strang: Projektanalyse – wartet auf Freigabe",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "Verworfen: Scanner: Liechtenstein ergänzen",
+    "daten": [
+     {
+      "entfernt": "e_t9",
+      "title": "Scanner: Liechtenstein ergänzen"
+     },
+     {
+      "seitZuletzt": [
+       3,
+       2
+      ]
+     }
+    ],
+    "hinweise": [
+     "↵ ok",
+     "⌘⌫ verwerfen"
+    ],
+    "bridge": [
+     {
+      "msg": "changes.revert",
+      "changeId": "c2",
+      "entryId": "e_t9"
+     }
+    ]
+   }
+  },
+  {
+   "id": "M01",
+   "gruppe": "modus",
+   "titel": "→ → → ← wechselt zwischen resume und ziel",
+   "start": "M01.kontext",
+   "schritte": [
+    "→",
+    "→",
+    "→",
+    "←"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "strang: Projektanalyse – wartet auf Freigabe",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": null,
+    "daten": [],
+    "hinweise": [
+     "↵ zum fenster",
+     "⌘D deadline",
+     "⌘P titel",
+     "← → modus"
+    ],
+    "bridge": []
+   }
+  },
+  {
+   "id": "M02",
+   "gruppe": "modus",
+   "titel": "Mit Text im Feld wechselt → nicht den Modus",
+   "start": "M01.kontext",
+   "schritte": [
+    "abc",
+    "→"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "abc",
+    "chips": [],
+    "markiert": null,
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": null,
+    "daten": [],
+    "hinweise": [
+     "↵ codex",
+     "⇧↵ claude code",
+     "esc zurück"
+    ],
+    "bridge": []
+   }
+  },
+  {
+   "id": "M03",
+   "gruppe": "modus",
+   "titel": "Projekt-Chip bleibt beim Moduswechsel",
+   "start": "M01.kontext",
+   "schritte": [
+    "@par",
+    "⇥",
+    "→"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "ziel",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [
+     "@parkway-portal"
+    ],
+    "markiert": "ziel: Preisliste-Scanner für AT-Seiten",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": null,
+    "daten": [],
+    "hinweise": [
+     "↵ starten",
+     "⌘D deadline",
+     "⇥ projekt",
+     "← → modus"
+    ],
+    "bridge": []
+   }
+  },
+  {
+   "id": "A01",
+   "gruppe": "aufgabe",
+   "titel": "Tippen, ↵ merkt Aufgabe im Kontext-Projekt",
+   "start": "M01.kontext",
+   "schritte": [
+    "→",
+    "Neue Idee",
+    "↵"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "ziel",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "ziel: Neue Idee",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "◇ gemerkt in vesper_ios · ⌘Z rückgängig",
+    "daten": [
+     {
+      "neu": "e_new26",
+      "title": "Neue Idee",
+      "projectId": "prj_vesper_ios",
+      "deadline": null,
+      "sessions": 0
+     }
+    ],
+    "hinweise": [
+     "⌘Z rückgängig",
+     "↵ starten",
+     "⌘D deadline",
+     "⇥ projekt"
+    ],
+    "bridge": [
+     {
+      "msg": "entry.add",
+      "title": "Neue Idee",
+      "projectId": "prj_vesper_ios",
+      "deadline": null,
+      "start": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "A02",
+   "gruppe": "aufgabe",
+   "titel": "@ + ⇥ + „bis fr“ = Projekt- und Deadline-Chip",
+   "start": "M01.kontext",
+   "schritte": [
+    "→",
+    "@dev",
+    "⇥",
+    "Logs prüfen bis fr ",
+    "↵"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "ziel",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "ziel: Logs prüfen",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "◇ gemerkt in devboardkit · bis Fr 06.11. · ⌘Z rückgängig",
+    "daten": [
+     {
+      "neu": "e_new26",
+      "title": "Logs prüfen",
+      "projectId": "prj_devboardkit",
+      "deadline": "2026-11-06",
+      "sessions": 0
+     }
+    ],
+    "hinweise": [
+     "⌘Z rückgängig",
+     "↵ starten",
+     "⌘D deadline",
+     "⇥ projekt"
+    ],
+    "bridge": [
+     {
+      "msg": "entry.add",
+      "title": "Logs prüfen",
+      "projectId": "prj_devboardkit",
+      "deadline": "2026-11-06",
+      "start": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "A03",
+   "gruppe": "aufgabe",
+   "titel": "⌘↵ merkt und startet sofort",
+   "start": "M01.kontext",
+   "schritte": [
+    "→",
+    "Sofort los",
+    "⌘↵"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "strang: Sofort los",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "Ghostty › neues Fenster\n$ cd ~/projects/vesper_ios\n$ codex \"Sofort los\"",
+    "daten": [
+     {
+      "neu": "e_new26",
+      "title": "Sofort los",
+      "projectId": "prj_vesper_ios",
+      "deadline": null,
+      "sessions": 1
+     },
+     {
+      "fenster": [
+       "9/2",
+       "10/2"
+      ]
+     }
+    ],
+    "hinweise": [
+     "⌘Z rückgängig",
+     "↵ zum fenster",
+     "⌘D deadline",
+     "⌘P titel"
+    ],
+    "bridge": [
+     {
+      "msg": "entry.add",
+      "title": "Sofort los",
+      "projectId": "prj_vesper_ios",
+      "deadline": null,
+      "start": "codex"
+     },
+     {
+      "msg": "entry.start",
+      "entryId": "e_new26",
+      "tool": "codex"
+     }
+    ]
+   }
+  },
+  {
+   "id": "A04",
+   "gruppe": "aufgabe",
+   "titel": "↵ auf Aufgabe startet Codex, wird Strang",
+   "start": "M01.aufgabe",
+   "schritte": [
+    "↓×3",
+    "↵",
+    "↓",
+    "↵"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "strang: Preisliste-Scanner für AT-Seiten",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "Ghostty › neues Fenster\n$ cd ~/projects/parkway-portal\n$ codex \"Preisliste-Scanner für AT-Seiten\"",
+    "daten": [
+     {
+      "id": "e_t1",
+      "title": "Preisliste-Scanner für AT-Seiten",
+      "sessions": [
+       0,
+       1
+      ]
+     },
+     {
+      "fenster": [
+       "9/2",
+       "10/2"
+      ]
+     }
+    ],
+    "hinweise": [
+     "⌘Z rückgängig",
+     "↵ zum fenster",
+     "⌘D deadline",
+     "⌘P titel"
+    ],
+    "bridge": [
+     {
+      "msg": "entry.start",
+      "entryId": "e_t1",
+      "tool": "codex"
+     }
+    ]
+   }
+  },
+  {
+   "id": "A05",
+   "gruppe": "aufgabe",
+   "titel": "⇧↵ auf Aufgabe startet Claude Code",
+   "start": "M01.aufgabe",
+   "schritte": [
+    "↓×3",
+    "↵",
+    "↓",
+    "⇧↵"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "strang: Preisliste-Scanner für AT-Seiten",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "Ghostty › neues Fenster\n$ cd ~/projects/parkway-portal\n$ claude \"Preisliste-Scanner für AT-Seiten\"",
+    "daten": [
+     {
+      "id": "e_t1",
+      "title": "Preisliste-Scanner für AT-Seiten",
+      "sessions": [
+       0,
+       1
+      ]
+     },
+     {
+      "fenster": [
+       "9/2",
+       "10/2"
+      ]
+     }
+    ],
+    "hinweise": [
+     "⌘Z rückgängig",
+     "↵ zum fenster",
+     "⌘D deadline",
+     "⌘P titel"
+    ],
+    "bridge": [
+     {
+      "msg": "entry.start",
+      "entryId": "e_t1",
+      "tool": "claude"
+     }
+    ]
+   }
+  },
+  {
+   "id": "A06",
+   "gruppe": "aufgabe",
+   "titel": "⇥ auf Aufgabe hängt sie in anderes Projekt",
+   "start": "M01.aufgabe",
+   "schritte": [
+    "↓×3",
+    "↵",
+    "↓",
+    "⇥",
+    "@dev",
+    "⇥",
+    "↵"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "ziel",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "ziel: Preisliste-Scanner für AT-Seiten",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "◇ verschoben nach devboardkit · ⌘Z rückgängig",
+    "daten": [
+     {
+      "id": "e_t1",
+      "title": "Preisliste-Scanner für AT-Seiten",
+      "projectId": [
+       "prj_parkway-portal",
+       "prj_devboardkit"
+      ]
+     }
+    ],
+    "hinweise": [
+     "⌘Z rückgängig",
+     "↵ starten",
+     "⌘D deadline",
+     "⇥ projekt"
+    ],
+    "bridge": [
+     {
+      "msg": "entry.setProject",
+      "entryId": "e_t1",
+      "projectId": "prj_devboardkit"
+     }
+    ]
+   }
+  },
+  {
+   "id": "A07",
+   "gruppe": "aufgabe",
+   "titel": "Ohne Projekt: ↵ startet sofort",
+   "start": "M01.kontext",
+   "schritte": [
+    "⌫",
+    "→",
+    "Ohne Ort",
+    "↵",
+    "↵"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "strang: Ohne Ort",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "Ghostty › neues Fenster\n$ cd ~/projects\n$ codex \"Ohne Ort\"",
+    "daten": [
+     {
+      "neu": "e_new26",
+      "title": "Ohne Ort",
+      "projectId": null,
+      "deadline": null,
+      "sessions": 1
+     },
+     {
+      "fenster": [
+       "9/2",
+       "10/2"
+      ]
+     }
+    ],
+    "hinweise": [
+     "⌘Z rückgängig",
+     "↵ zum fenster",
+     "⌘D deadline",
+     "⌘P titel"
+    ],
+    "bridge": [
+     {
+      "msg": "entry.add",
+      "title": "Ohne Ort",
+      "projectId": null,
+      "deadline": null,
+      "start": null
+     },
+     {
+      "msg": "entry.start",
+      "entryId": "e_new26",
+      "tool": "codex"
+     }
+    ]
+   }
+  },
+  {
+   "id": "A08",
+   "gruppe": "aufgabe",
+   "titel": "⌘D setzt Deadline (Feld leer oder markiert, Tippen ersetzt)",
+   "start": "M01.aufgabe",
+   "schritte": [
+    "↓×3",
+    "↵",
+    "↓",
+    "⌘D",
+    "morgen",
+    "↵"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "ziel",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "ziel: Preisliste-Scanner für AT-Seiten",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "Deadline Do 05.11. · ⌘Z rückgängig",
+    "daten": [
+     {
+      "id": "e_t1",
+      "title": "Preisliste-Scanner für AT-Seiten",
+      "deadline": [
+       "2026-11-06",
+       "2026-11-05"
+      ]
+     }
+    ],
+    "hinweise": [
+     "⌘Z rückgängig",
+     "↵ starten",
+     "⌘D deadline",
+     "⇥ projekt"
+    ],
+    "bridge": [
+     {
+      "msg": "entry.setDeadline",
+      "entryId": "e_t1",
+      "deadline": "2026-11-05"
+     }
+    ]
+   }
+  },
+  {
+   "id": "A09",
+   "gruppe": "aufgabe",
+   "titel": "⌘D mit leerem Feld entfernt Deadline",
+   "start": "M01.aufgabe",
+   "schritte": [
+    "↓×3",
+    "↵",
+    "↓",
+    "⌘D",
+    "morgen",
+    "↵",
+    "⌘D",
+    "⌫×20",
+    "↵"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "ziel",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "ziel: Preisliste-Scanner für AT-Seiten",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "Deadline entfernt · ⌘Z rückgängig",
+    "daten": [
+     {
+      "id": "e_t1",
+      "title": "Preisliste-Scanner für AT-Seiten",
+      "deadline": [
+       "2026-11-06",
+       null
+      ]
+     }
+    ],
+    "hinweise": [
+     "⌘Z rückgängig",
+     "↵ starten",
+     "⌘D deadline",
+     "⇥ projekt"
+    ],
+    "bridge": [
+     {
+      "msg": "entry.setDeadline",
+      "entryId": "e_t1",
+      "deadline": "2026-11-05"
+     },
+     {
+      "msg": "entry.setDeadline",
+      "entryId": "e_t1",
+      "deadline": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "A10",
+   "gruppe": "aufgabe",
+   "titel": "⌘D mit Unsinn: Fehlermeldung, Feld bleibt",
+   "start": "M01.aufgabe",
+   "schritte": [
+    "↓×3",
+    "↵",
+    "↓",
+    "⌘D",
+    "blabla",
+    "↵"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "ziel",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "ziel: Preisliste-Scanner für AT-Seiten",
+    "bearbeitung": {
+     "art": "deadline",
+     "text": "blabla"
+    },
+    "hilfe": false,
+    "meldung": "„blabla“ ist kein Datum · z. B. fr, morgen, 14.11",
+    "daten": [],
+    "hinweise": [
+     "↵ speichern",
+     "esc abbrechen"
+    ],
+    "bridge": []
+   }
+  },
+  {
+   "id": "A11",
+   "gruppe": "aufgabe",
+   "titel": "⌘S auf Aufgabe: Hinweis, keine Änderung",
+   "start": "M01.aufgabe",
+   "schritte": [
+    "↓×3",
+    "↵",
+    "↓",
+    "⌘S"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "ziel",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "ziel: Preisliste-Scanner für AT-Seiten",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "Ziele haben keinen Status · ↵ startet, ⌘⌫ erledigt",
+    "daten": [],
+    "hinweise": [
+     "↵ starten",
+     "⌘D deadline",
+     "⇥ projekt",
+     "← → modus"
+    ],
+    "bridge": []
+   }
+  },
+  {
+   "id": "A12",
+   "gruppe": "aufgabe",
+   "titel": "⌘⌫ auf Aufgabe: erledigt",
+   "start": "M01.aufgabe",
+   "schritte": [
+    "↓×3",
+    "↵",
+    "↓",
+    "⌘⌫"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "ziel",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "strang: Hauptupdate undercover",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "◇ erledigt: Preisliste-Scanner für AT-Seiten\n⌘Z rückgängig",
+    "daten": [
+     {
+      "id": "e_t1",
+      "title": "Preisliste-Scanner für AT-Seiten",
+      "status": [
+       "offen",
+       "erledigt"
+      ],
+      "archivedAt": [
+       null,
+       "2026-11-04T12:00:00+01:00"
+      ]
+     }
+    ],
+    "hinweise": [
+     "⌘Z rückgängig",
+     "↵ fortsetzen",
+     "⌘D deadline",
+     "⌘P titel"
+    ],
+    "bridge": [
+     {
+      "msg": "entry.archive",
+      "entryId": "e_t1"
+     }
+    ]
+   }
+  },
+  {
+   "id": "A13",
+   "gruppe": "aufgabe",
+   "titel": "⌘D: vorhandenes Datum ist markiert, Tippen ersetzt es",
+   "start": "M01.aufgabe",
+   "schritte": [
+    "↓×3",
+    "↵",
+    "↓",
+    "⌘D",
+    "14.11",
+    "↵"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "ziel",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "ziel: Preisliste-Scanner für AT-Seiten",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "Deadline Sa 14.11. · ⌘Z rückgängig",
+    "daten": [
+     {
+      "id": "e_t1",
+      "title": "Preisliste-Scanner für AT-Seiten",
+      "deadline": [
+       "2026-11-06",
+       "2026-11-14"
+      ]
+     }
+    ],
+    "hinweise": [
+     "⌘Z rückgängig",
+     "↵ starten",
+     "⌘D deadline",
+     "⇥ projekt"
+    ],
+    "bridge": [
+     {
+      "msg": "entry.setDeadline",
+      "entryId": "e_t1",
+      "deadline": "2026-11-14"
+     }
+    ]
+   }
+  },
+  {
+   "id": "P01",
+   "gruppe": "projekt",
+   "titel": "Im Modus projekt: ↵ auf einem Strang setzt ihn fort",
+   "start": "M01.kontext",
+   "schritte": [
+    "↵"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "strang: Projektanalyse – wartet auf Freigabe",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": "Läuft in Ghostty · Fenster 3 · ttys004\nnach vorn geholt, keine zweite Instanz",
+    "daten": [],
+    "hinweise": [
+     "↵ zum fenster",
+     "⌘D deadline",
+     "⌘P titel",
+     "← → modus"
+    ],
+    "bridge": [
+     {
+      "msg": "entry.resume",
+      "entryId": "e_s2",
+      "sessionId": "cx_11c83683-0000-4000-8000-d4c6b2e18e7b",
+      "result": "focused"
+     }
+    ]
+   }
+  },
+  {
+   "id": "P02",
+   "gruppe": "projekt",
+   "titel": "↵ auf dem offenen Projekt klappt es zu",
+   "start": "M01.kontext",
+   "schritte": [
+    "↑",
+    "↵"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "projekt: vesper_ios",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": null,
+    "daten": [],
+    "hinweise": [
+     "↵ auf/zu",
+     "← → modus"
+    ],
+    "bridge": []
+   }
+  },
+  {
+   "id": "P03",
+   "gruppe": "projekt",
+   "titel": "Zuklappen, ↓ zum nächsten Projekt, ↵ klappt es auf",
+   "start": "M01.kontext",
+   "schritte": [
+    "↑",
+    "↵",
+    "↓",
+    "↵"
+   ],
+   "erwartet": {
+    "screen": "M01",
+    "modus": "resume",
+    "fokus": "list",
+    "eingabe": "",
+    "chips": [],
+    "markiert": "projekt: parkway-portal",
+    "bearbeitung": null,
+    "hilfe": false,
+    "meldung": null,
+    "daten": [],
+    "hinweise": [
+     "↵ auf/zu",
+     "← → modus"
+    ],
+    "bridge": []
+   }
+  },
+  {
+   "id": "S01",
+   "gruppe": "panel",
+   "titel": "⇧⌘R: Titel tippen, ↵, ⌘Z",
+   "start": "M01-S1.benennen",
+   "schritte": [
+    "Mein Titel",
+    "↵",
+    "⌘Z"
+   ],
+   "erwartet": {
+    "screen": "M01-S1",
+    "panel": {
+     "text": "Mein Titel",
+     "gespeichert": false
+    },
+    "meldung": null,
+    "daten": [],
+    "hinweise": [],
+    "bridge": [
+     {
+      "msg": "panel.name",
+      "sessionId": "cx_af2744b4-0000-4000-8000-52355bbd24a8",
+      "title": "Mein Titel"
+     },
+     {
+      "msg": "undo"
+     }
+    ]
+   }
+  },
+  {
+   "id": "S02",
+   "gruppe": "panel",
+   "titel": "⇧⌘R: esc schließt ohne Änderung",
+   "start": "M01-S1.benennen",
+   "schritte": [
+    "esc"
+   ],
+   "erwartet": {
+    "screen": "M01-S1",
+    "panel": {
+     "text": "devtool-Blockaden untersuchen",
+     "gespeichert": false
+    },
+    "meldung": "Panel schließt sich",
+    "daten": [],
+    "hinweise": [],
+    "bridge": [
+     {
+      "msg": "panel.close"
+     }
+    ]
+   }
+  },
+  {
+   "id": "S03",
+   "gruppe": "panel",
+   "titel": "⇧⌘R ohne Session-ID: nur esc",
+   "start": "M01-S1.nicht-erkannt",
+   "schritte": [
+    "↵",
+    "esc"
+   ],
+   "erwartet": {
+    "screen": "M01-S1",
+    "panel": {
+     "text": "",
+     "gespeichert": false
+    },
+    "meldung": "Panel schließt sich",
+    "daten": [],
+    "hinweise": [],
+    "bridge": [
+     {
+      "msg": "panel.close"
+     }
+    ]
+   }
+  },
+  {
+   "id": "E01",
+   "gruppe": "ein-fenster",
+   "titel": "Gruppierte Liste beim Öffnen",
+   "start": "M01.kontext",
+   "schritte": [],
+   "erwartet": {
+    "modus": "resume",
+    "markiert": "strang: Projektanalyse – wartet auf Freigabe",
+    "zeilen": [
+     "projekt: vesper_ios",
+     "strang: Projektanalyse – wartet auf Freigabe",
+     "strang: CallKit-Anbindung prüfen",
+     "ziel: Push-Zustellung messen",
+     "projekt: parkway-portal",
+     "projekt: devboardkit",
+     "projekt: resume_bar_mac",
+     "projekt: local_runner",
+     "projekt: bluefin_portal",
+     "projekt: Dune",
+     "projekt: ohne Projekt"
+    ]
+   }
+  },
+  {
+   "id": "E02",
+   "gruppe": "ein-fenster",
+   "titel": "Pfeil wechselt den Modus bei gleicher Liste",
+   "start": "M01.kontext",
+   "schritte": [
+    "→"
+   ],
+   "erwartet": {
+    "modus": "ziel",
+    "markiert": "strang: Projektanalyse – wartet auf Freigabe",
+    "zeilen": [
+     "projekt: vesper_ios",
+     "strang: Projektanalyse – wartet auf Freigabe",
+     "strang: CallKit-Anbindung prüfen",
+     "ziel: Push-Zustellung messen",
+     "projekt: parkway-portal",
+     "projekt: devboardkit",
+     "projekt: resume_bar_mac",
+     "projekt: local_runner",
+     "projekt: bluefin_portal",
+     "projekt: Dune",
+     "projekt: ohne Projekt"
+    ]
+   }
+  },
+  {
+   "id": "E03",
+   "gruppe": "ein-fenster",
+   "titel": "Globales Kürzel wechselt den Modus bei gleicher Liste",
+   "start": "M01.kontext",
+   "schritte": [
+    "⇧⌘Space"
+   ],
+   "erwartet": {
+    "modus": "ziel",
+    "zeilen": [
+     "projekt: vesper_ios",
+     "strang: Projektanalyse – wartet auf Freigabe",
+     "strang: CallKit-Anbindung prüfen",
+     "ziel: Push-Zustellung messen",
+     "projekt: parkway-portal",
+     "projekt: devboardkit",
+     "projekt: resume_bar_mac",
+     "projekt: local_runner",
+     "projekt: bluefin_portal",
+     "projekt: Dune",
+     "projekt: ohne Projekt"
+    ]
+   }
+  },
+  {
+   "id": "E04",
+   "gruppe": "ein-fenster",
+   "titel": "Geschlossenes Projekt öffnen",
+   "start": "M01.kontext",
+   "schritte": [
+    "↑",
+    "↵",
+    "↓",
+    "↵"
+   ],
+   "erwartet": {
+    "zeilen": [
+     "projekt: vesper_ios",
+     "projekt: parkway-portal",
+     "ziel: Preisliste-Scanner für AT-Seiten",
+     "strang: Hauptupdate undercover",
+     "strang: Barrierefreiheit-Report",
+     "strang: Q2-Zuarbeiten für Mira prüfen",
+     "strang: Parkway Portal Velocity",
+     "strang: Blogzugriff Basisversion fixen",
+     "strang: 0012 Bestellkonsole Umsetzung",
+     "ziel: Bestellkonsole: Export als PDF",
+     "projekt: devboardkit",
+     "projekt: resume_bar_mac",
+     "projekt: local_runner",
+     "projekt: bluefin_portal",
+     "projekt: Dune",
+     "projekt: ohne Projekt"
+    ],
+    "markiert": "projekt: parkway-portal"
+   }
+  },
+  {
+   "id": "E05",
+   "gruppe": "ein-fenster",
+   "titel": "Ähnliches Ziel und neues Ziel merken",
+   "start": "M01.kontext",
+   "schritte": [
+    "→",
+    "Projektanalyse"
+   ],
+   "erwartet": {
+    "modus": "ziel",
+    "markiert": null,
+    "zeilen": [
+     "projekt: vesper_ios",
+     "strang: Projektanalyse – wartet auf Freigabe"
+    ]
+   },
+   "danach": {
+    "schritte": [
+     "↵"
+    ],
+    "erwartet": {
+     "bridge": [
+      {
+       "msg": "entry.add",
+       "title": "Projektanalyse",
+       "projectId": "prj_vesper_ios",
+       "deadline": null,
+       "start": null
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "E06",
+   "gruppe": "ein-fenster",
+   "titel": "Suche nach Ziel und Fortsetzen",
+   "start": "M01.kontext",
+   "schritte": [
+    "CallKit",
+    "↵"
+   ],
+   "erwartet": {
+    "modus": "resume",
+    "bridge": [
+     {
+      "msg": "entry.resume",
+      "entryId": "e_s4",
+      "sessionId": "cc_033385f9-0000-4000-8000-7ec4933aa8e2",
+      "result": "opened",
+      "terminal": "ghostty"
+     }
+    ],
+    "zeilen": [
+     "projekt: vesper_ios",
+     "strang: CallKit-Anbindung prüfen"
+    ]
+   }
+  },
+  {
+   "id": "E07",
+   "gruppe": "ein-fenster",
+   "titel": "Fälligkeitshinweis und Zeilen bleiben beim Moduswechsel",
+   "start": "M01.kontext",
+   "schritte": [
+    "→"
+   ],
+   "erwartet": {
+    "modus": "ziel",
+    "zeilen": [
+     "projekt: vesper_ios",
+     "strang: Projektanalyse – wartet auf Freigabe",
+     "strang: CallKit-Anbindung prüfen",
+     "ziel: Push-Zustellung messen",
+     "projekt: parkway-portal",
+     "projekt: devboardkit",
+     "projekt: resume_bar_mac",
+     "projekt: local_runner",
+     "projekt: bluefin_portal",
+     "projekt: Dune",
+     "projekt: ohne Projekt"
+    ],
+    "faelligkeitshinweis": "◇ Preisliste-Scanner für AT-Seiten · Fr"
+   },
+   "danach": {
+    "schritte": [
+     "→"
+    ],
+    "erwartet": {
+     "modus": "resume",
+     "zeilen": [
+      "projekt: vesper_ios",
+      "strang: Projektanalyse – wartet auf Freigabe",
+      "strang: CallKit-Anbindung prüfen",
+      "ziel: Push-Zustellung messen",
+      "projekt: parkway-portal",
+      "projekt: devboardkit",
+      "projekt: resume_bar_mac",
+      "projekt: local_runner",
+      "projekt: bluefin_portal",
+      "projekt: Dune",
+      "projekt: ohne Projekt"
+     ],
+     "faelligkeitshinweis": "◇ Preisliste-Scanner für AT-Seiten · Fr"
+    }
+   }
+  },
+  {
+   "id": "E08",
+   "gruppe": "ein-fenster",
+   "titel": "Deadline für markierten Strang setzen",
+   "start": "M01.kontext",
+   "schritte": [
+    "⌘D",
+    "fr",
+    "↵"
+   ],
+   "erwartet": {
+    "markiert": "strang: Projektanalyse – wartet auf Freigabe",
+    "bridge": [
+     {
+      "msg": "entry.setDeadline",
+      "entryId": "e_s2",
+      "deadline": "2026-11-06"
+     }
+    ]
+   }
+  },
+  {
+   "id": "E09",
+   "gruppe": "ein-fenster",
+   "titel": "Markiertes Ziel zeigt Startknöpfe",
+   "start": "M01.kontext",
+   "schritte": [
+    "↓",
+    "↓"
+   ],
+   "erwartet": {
+    "markiert": "ziel: Push-Zustellung messen",
+    "startknoepfe": [
+     "Codex ↵",
+     "Claude ⇧↵",
+     "als /goal ⌘G"
+    ]
+   }
+  },
+  {
+   "id": "E10",
+   "gruppe": "ein-fenster",
+   "titel": "Ziel als /goal starten",
+   "start": "M01.kontext",
+   "schritte": [
+    "↓",
+    "↓",
+    "⌘G",
+    "↵"
+   ],
+   "erwartet": {
+    "bridge": [
+     {
+      "msg": "entry.startGoal",
+      "entryId": "e_t3",
+      "tool": "codex"
+     }
+    ]
+   }
+  },
+  {
+   "id": "E11",
+   "gruppe": "ein-fenster",
+   "titel": "Mehrdeutiges Projekt bleibt offen",
+   "start": "M01.mehrdeutig",
+   "schritte": [
+    "↓",
+    "↓",
+    "⇥",
+    "@p",
+    "↵"
+   ],
+   "erwartet": {
+    "bearbeitung": {
+     "art": "project",
+     "text": "@p"
+    },
+    "meldung": "mehrere: parkway-portal · pi-harborlight · ⇥ wählt das erste",
+    "bridge": []
+   }
+  },
+  {
+   "id": "E12",
+   "gruppe": "ein-fenster",
+   "titel": "Kontext folgt dem markierten Projekt",
+   "start": "M01.kontext",
+   "schritte": [
+    "↓×4"
+   ],
+   "erwartet": {
+    "markiert": "projekt: devboardkit",
+    "kontext": "devboardkit",
+    "zeilen": [
+     "projekt: vesper_ios",
+     "strang: Projektanalyse – wartet auf Freigabe",
+     "strang: CallKit-Anbindung prüfen",
+     "ziel: Push-Zustellung messen",
+     "projekt: parkway-portal",
+     "projekt: devboardkit",
+     "projekt: resume_bar_mac",
+     "projekt: local_runner",
+     "projekt: bluefin_portal",
+     "projekt: Dune",
+     "projekt: ohne Projekt"
+    ]
+   }
+  },
+  {
+   "id": "E13",
+   "gruppe": "ein-fenster",
+   "titel": "Neues Ziel übernimmt das markierte Projekt",
+   "start": "M01.kontext",
+   "schritte": [
+    "↓×4",
+    "→",
+    "Neues Ziel",
+    "↵"
+   ],
+   "erwartet": {
+    "bridge": [
+     {
+      "msg": "entry.add",
+      "title": "Neues Ziel",
+      "projectId": "prj_devboardkit",
+      "deadline": null,
+      "start": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "E14",
+   "gruppe": "ein-fenster",
+   "titel": "Ohne Projekt bleibt ein neues Ziel ohne Projekt",
+   "start": "M01.kontext",
+   "schritte": [
+    "↓×9"
+   ],
+   "erwartet": {
+    "markiert": "projekt: ohne Projekt",
+    "kontext": null
+   },
+   "danach": {
+    "schritte": [
+     "→",
+     "Neues Ziel",
+     "↵"
+    ],
+    "erwartet": {
+     "bridge": [
+      {
+       "msg": "entry.add",
+       "title": "Neues Ziel",
+       "projectId": null,
+       "deadline": null,
+       "start": null
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "E15",
+   "gruppe": "ein-fenster",
+   "titel": "Entfernter Kontext bleibt beim Markieren entfernt",
+   "start": "M01.kontext",
+   "schritte": [
+    "⌫",
+    "↓×4"
+   ],
+   "erwartet": {
+    "markiert": "projekt: devboardkit",
+    "kontext": null
+   }
+  },
+  {
+   "id": "E16",
+   "gruppe": "ein-fenster",
+   "titel": "Suche findet archivierte Stränge im Projekt",
+   "start": "M01.kontext",
+   "schritte": [
+    "pp blog"
+   ],
+   "erwartet": {
+    "zeilen": [
+     "projekt: parkway-portal",
+     "strang: Blogzugriff Basisversion fixen",
+     "strang: Blog-Feed Caching"
+    ]
+   }
+  },
+  {
+   "id": "E17",
+   "gruppe": "ein-fenster",
+   "titel": "Markiertes Ziel ohne Projekt sofort starten",
+   "start": "M01.kontext",
+   "schritte": [
+    "⌫",
+    "Steuerunterlagen",
+    "↵"
+   ],
+   "erwartet": {
+    "bearbeitung": null,
+    "bridge": [
+     {
+      "msg": "entry.start",
+      "entryId": "e_t7",
+      "tool": "codex"
+     }
+    ]
+   }
+  },
+  {
+   "id": "E18",
+   "gruppe": "ein-fenster",
+   "titel": "Suche ohne Treffer startet Strang ohne Projekt",
+   "start": "M01.kontext",
+   "schritte": [
+    "⌫",
+    "Unbekanntes Vorhaben",
+    "↵"
+   ],
+   "erwartet": {
+    "bridge": [
+     {
+      "msg": "entry.newStrang",
+      "title": "Unbekanntes Vorhaben",
+      "projectId": null,
+      "tool": "codex"
+     },
+     {
+      "msg": "entry.start",
+      "entryId": "e_new26",
+      "tool": "codex"
+     }
+    ]
+   }
+  },
+  {
+   "id": "E19",
+   "gruppe": "ein-fenster",
+   "titel": "Deadline ohne abschließendes Leerzeichen merken",
+   "start": "M01.kontext",
+   "schritte": [
+    "→",
+    "Logs prüfen bis fr",
+    "↵"
+   ],
+   "erwartet": {
+    "eingabe": "",
+    "chips": [],
+    "markiert": "ziel: Logs prüfen",
+    "daten": [
+     {
+      "neu": "e_new26",
+      "title": "Logs prüfen",
+      "projectId": "prj_vesper_ios",
+      "deadline": "2026-11-06",
+      "sessions": 0
+     }
+    ],
+    "bridge": [
+     {
+      "msg": "entry.add",
+      "title": "Logs prüfen",
+      "projectId": "prj_vesper_ios",
+      "deadline": "2026-11-06",
+      "start": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "E20",
+   "gruppe": "ein-fenster",
+   "titel": "Deadline ohne Titel wartet auf Eingabe",
+   "start": "M01.kontext",
+   "schritte": [
+    "→",
+    "bis fr",
+    "↵"
+   ],
+   "erwartet": {
+    "eingabe": "",
+    "chips": [
+     "bis Fr 06.11."
+    ],
+    "daten": [],
+    "bridge": []
+   }
+  },
+  {
+   "id": "E21",
+   "gruppe": "ein-fenster",
+   "titel": "Unbekannte Deadline bleibt im Titel",
+   "start": "M01.kontext",
+   "schritte": [
+    "→",
+    "Logs prüfen bis xyz",
+    "↵"
+   ],
+   "erwartet": {
+    "daten": [
+     {
+      "neu": "e_new26",
+      "title": "Logs prüfen bis xyz",
+      "projectId": "prj_vesper_ios",
+      "deadline": null,
+      "sessions": 0
+     }
+    ],
+    "bridge": [
+     {
+      "msg": "entry.add",
+      "title": "Logs prüfen bis xyz",
+      "projectId": "prj_vesper_ios",
+      "deadline": null,
+      "start": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "T01",
+   "start": "Trainer.uebung",
+   "schritte": [
+    "↵"
+   ],
+   "erwartet": {
+    "bridge": [
+     {
+      "msg": "entry.resume",
+      "entryId": "fortsetzen",
+      "sessionId": "practice_session_1",
+      "terminal": "ghostty",
+      "result": "opened"
+     }
+    ]
+   }
+  },
+  {
+   "id": "T02",
+   "start": "Trainer.uebung",
+   "schritte": [
+    "→",
+    "Blumen pflanzen",
+    "↵"
+   ],
+   "erwartet": {
+    "bridge": [
+     {
+      "msg": "entry.add",
+      "title": "Blumen pflanzen",
+      "projectId": "prj_garten",
+      "deadline": null,
+      "start": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "T03",
+   "start": "Trainer.uebung",
+   "schritte": [
+    "→",
+    "Blumen pflanzen bis fr ",
+    "↵"
+   ],
+   "erwartet": {
+    "bridge": [
+     {
+      "msg": "entry.add",
+      "title": "Blumen pflanzen",
+      "projectId": "prj_garten",
+      "deadline": "2026-11-06",
+      "start": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "T04",
+   "start": "Trainer.uebung",
+   "schritte": [
+    "↓",
+    "↵"
+   ],
+   "erwartet": {
+    "bridge": [
+     {
+      "msg": "entry.start",
+      "entryId": "offen",
+      "tool": "codex"
+     }
+    ]
+   }
+  },
+  {
+   "id": "T05",
+   "start": "Trainer.uebung",
+   "schritte": [
+    "⌘⌫"
+   ],
+   "erwartet": {
+    "bridge": [
+     {
+      "msg": "entry.archive",
+      "entryId": "fortsetzen"
+     }
+    ]
+   }
+  },
+  {
+   "id": "T06",
+   "start": "Trainer.uebung",
+   "schritte": [
+    "zaun",
+    "↵"
+   ],
+   "erwartet": {
+    "bridge": [
+     {
+      "msg": "entry.resume",
+      "entryId": "suchen",
+      "sessionId": "practice_session_2",
+      "terminal": "ghostty",
+      "result": "opened"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,3 @@
+{"timestamp": "2026-11-01T10:00:00.000Z", "type": "session_meta", "payload": {"id": "01a19000-0000-7000-8000-000000000001", "session_id": "01a19000-0000-7000-8000-000000000001", "timestamp": "2026-11-01T10:00:00.000Z", "cwd": "/Users/example/projects/demo", "source": "cli", "originator": "codex-tui", "cli_version": "0.166.0", "git": {"branch": "main", "commit_hash": "abc123"}}}
+{"timestamp": "2026-11-01T10:00:05.000Z", "type": "event_msg", "payload": {"type": "user_message", "message": "Synthetic sample prompt for tests."}}
+{"timestamp": "2026-11-01T10:05:00.000Z", "type": "event_msg", "payload": {"type": "token_count", "info": {"total_token_usage": {"total_tokens": 1234}, "last_token_usage": {"total_tokens": 100}, "model_context_window": 272000}}}

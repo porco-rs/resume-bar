@@ -1,0 +1,6 @@
+{
+  "inner" : "<div class=\"p-title\">Keine Session in der Markierung<\/div><div class=\"p-text\">Markiere eine Zeile mit codex oder claude, oder drücke ⇧⌘R ohne Markierung im Fenster der Session.<\/div><div class=\"p-src\">erkannt aus: npm run build &amp;&amp; npm test<\/div><div class=\"p-foot\"><span><\/span><button type=\"button\" data-act=\"panelCancel\"><b>esc<\/b> schließen<\/button><\/div>",
+  "root" : "<div class=\"pop panel\" data-root=\"\" data-screen=\"M01-S1\" data-state=\"nicht-erkannt\" role=\"dialog\" aria-label=\"Session merken\"><h1 class=\"sr\">Session merken<\/h1><div class=\"p-title\">Keine Session in der Markierung<\/div><div class=\"p-text\">Markiere eine Zeile mit codex oder claude, oder drücke ⇧⌘R ohne Markierung im Fenster der Session.<\/div><div class=\"p-src\">erkannt aus: npm run build &amp;&amp; npm test<\/div><div class=\"p-foot\"><span><\/span><button type=\"button\" data-act=\"panelCancel\"><b>esc<\/b> schließen<\/button><\/div><\/div>",
+  "screen" : "M01-S1",
+  "state" : "nicht-erkannt"
+}

@@ -1,0 +1,15 @@
+# Build
+.build/
+.swiftpm/
+build/
+dist/
+*.app
+*.dmg
+*.xcarchive
+DerivedData/
+
+
+# macOS
+.DS_Store
+
+

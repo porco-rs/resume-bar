@@ -1,0 +1,168 @@
+{
+  "fixture": "m01.ohne-sessions.json",
+  "ui": {
+    "mode": "resume",
+    "chips": [],
+    "query": "",
+    "sel": null,
+    "openProjects": [
+      "prj_vesper_ios"
+    ],
+    "openEntries": [],
+    "edit": null,
+    "toast": null,
+    "notes": {},
+    "focus": "list",
+    "bannerText": "",
+    "stripIdx": 0,
+    "contextDismissed": false,
+    "help": false,
+    "undoHint": false,
+    "panel": null,
+    "selectAll": false,
+    "recording": null
+  },
+  "viewSnapshot": {
+    "schemaVersion": 2,
+    "now": "2026-11-04T12:00:00+01:00",
+    "context": {
+      "projectId": "prj_vesper_ios",
+      "source": "ghostty",
+      "cwd": "/Users/mira/projects/vesper_ios",
+      "windowIndex": 3
+    },
+    "settings": {
+      "commands": {
+        "codex": "codex resume {id}",
+        "claude": "claude --resume {id}"
+      },
+      "newCommands": {
+        "codex": "codex",
+        "claude": "claude"
+      },
+      "commandsSource": "~/.zshrc",
+      "terminal": {
+        "default": "ghostty",
+        "alternate": "terminal"
+      },
+      "hotkeys": {
+        "popover": "⇧⌘Space",
+        "task": "⌥⌘N",
+        "pin": "⇧⌘R"
+      },
+      "archiveDays": 3,
+      "cleanupThreshold": 3,
+      "importDays": 14,
+      "watch": {
+        "claude": "~/.claude/projects",
+        "codex": "~/.codex/sessions"
+      },
+      "ai": {
+        "mcp": true,
+        "cliPath": "~/.local/bin/rb",
+        "clients": {
+          "claude": "verbunden",
+          "codex": "verbunden"
+        }
+      }
+    },
+    "permissions": {
+      "accessibility": true,
+      "automation": {
+        "ghostty": "granted",
+        "terminal": "unknown"
+      }
+    },
+    "import": {
+      "sessions": 41,
+      "days": 14,
+      "byProject": {
+        "parkway-portal": 18,
+        "vesper_ios": 13,
+        "devboardkit": 5,
+        "weitere 5 projekte": 5
+      }
+    },
+    "projects": [],
+    "entries": [],
+    "sessions": [],
+    "windows": {
+      "open": 1,
+      "closable": 0
+    },
+    "justEnded": [],
+    "changes": [],
+    "_screen": "M01",
+    "_state": "ohne-sessions",
+    "_title": "resume · noch nichts da"
+  },
+  "sortStrands": [],
+  "sortTasks": [],
+  "projectList": [],
+  "urgentTasks": [],
+  "entries": [],
+  "strands": [],
+  "views": {
+    "own": [],
+    "resume": [],
+    "aufgabe": [],
+    "projekt": []
+  },
+  "deadlines": [
+    {
+      "word": "heute",
+      "date": "2026-11-04",
+      "input": "04.11"
+    },
+    {
+      "word": "morgen",
+      "date": "2026-11-05",
+      "input": "05.11"
+    },
+    {
+      "word": "übermorgen",
+      "date": "2026-11-06",
+      "input": "06.11"
+    },
+    {
+      "word": "fr",
+      "date": "2026-11-06",
+      "input": "06.11"
+    },
+    {
+      "word": "freitag",
+      "date": "2026-11-06",
+      "input": "06.11"
+    },
+    {
+      "word": "14.11",
+      "date": "2026-11-14",
+      "input": "14.11"
+    },
+    {
+      "word": "14.11.2026",
+      "date": "2026-11-14",
+      "input": "14.11"
+    },
+    {
+      "word": "01.01",
+      "date": "2027-01-01",
+      "input": "01.01"
+    },
+    {
+      "word": "so im text",
+      "date": null,
+      "input": null
+    },
+    {
+      "word": "do im text",
+      "date": null,
+      "input": null
+    },
+    {
+      "word": "31.02",
+      "date": null,
+      "input": null
+    }
+  ]
+}
