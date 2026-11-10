@@ -201,7 +201,7 @@ English and German. It follows your system language.
 
 ## Build it yourself
 
-You'll need Swift 6.2 and [just](https://github.com/casey/just). Run `just app` and open `build/ResumeBar.app`. Without a Developer ID certificate, the build is signed ad hoc, and macOS may ask for permissions again after a rebuild.
+You'll need Xcode 27 and [just](https://github.com/casey/just). Run `just app` and open `build/ResumeBar.app`. Without a Developer ID certificate, the build is signed ad hoc, and macOS may ask for permissions again after a rebuild.
 
 A Swift core holds state and renders HTML; a WKWebView displays it and reports events. The app is one SwiftPM package with no web framework. Use `just build` to build, `just test` to run tests, and `just gen` to regenerate resources.
 
