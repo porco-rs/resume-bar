@@ -1,0 +1,2 @@
+# Third-party zstd decompressor, kept out of GitHub language stats
+Sources/CZstd/** linguist-vendored
