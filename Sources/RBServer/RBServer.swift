@@ -130,7 +130,9 @@ public final class RBServer: @unchecked Sendable {
             }
             identity = (info.st_dev, info.st_ino); listener = fd; lockFD = lock; generation = UUID(); success = true
             let run = generation
-            DispatchQueue.global(qos: .utility).async { [weak self] in self?.acceptLoop(fd, run: run) }
+            // Blocking accept/recv run on own threads: on the shared global pool they could wait for a free thread
+            // for seconds when the process is busy, and rb would stop answering.
+            Self.startThread("rb.server.accept") { [weak self] in self?.acceptLoop(fd, run: run) }
         }
     }
     public func stop() {
@@ -168,13 +170,19 @@ public final class RBServer: @unchecked Sendable {
                 clients[client] = token; return true
             }
             guard accepted else { close(client); continue }
-            DispatchQueue.global(qos: .utility).asyncAfter(deadline: .now() + 5) { [weak self] in
-                self?.queue.sync {
-                    if self?.clients[client] == token { self?.expired.insert(token); self?.requests[token]?.cancel(); shutdown(client, SHUT_RDWR) }
-                }
+            // The deadline runs on the server's own serial queue, which owns this state and gets a thread even
+            // when the shared pool is busy.
+            queue.asyncAfter(deadline: .now() + 5) { [weak self] in
+                guard let self, clients[client] == token else { return }
+                expired.insert(token); requests[token]?.cancel(); shutdown(client, SHUT_RDWR)
             }
-            DispatchQueue.global(qos: .utility).async { [self] in serve(client, token: token, run: run) }
+            Self.startThread("rb.server.client") { [self] in serve(client, token: token, run: run) }
         }
+    }
+    private static func startThread(_ name: String, _ body: @escaping @Sendable () -> Void) {
+        let thread = Thread(block: body)
+        thread.name = name; thread.qualityOfService = .utility
+        thread.start()
     }
     private func finish(_ fd: Int32, token: UUID) {
         queue.sync {
