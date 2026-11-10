@@ -13,11 +13,11 @@ build:
 
 # All tests, parallel (Swift Testing)
 test:
-    swift test --parallel
+    RB_LANGUAGE=de swift test --parallel
 
 # Tests of one module, e.g. `just t RBIndex`
 t module:
-    swift test --filter {{module}}Tests
+    RB_LANGUAGE=de swift test --filter {{module}}Tests
 
 # Signed release bundle in build/ResumeBar.app (Developer ID, Hardened Runtime)
 app:
