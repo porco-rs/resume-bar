@@ -6,12 +6,11 @@ Resume Bar lives in your Mac's menu bar and remembers your Claude Code and Codex
 
 ![Friday evening: a terminal window closes. Monday morning: Shift-Command-Space opens Resume Bar, typing "log" finds the thread, and Return brings the conversation back in a new window, right where it stopped.](assets/readme/hero.gif)
 
-**[Download for Mac](https://github.com/porco-rs/resume-bar/releases)** · free and open source · everything stays on your Mac
+<a href="https://github.com/porco-rs/resume-bar/releases/latest/download/ResumeBar.dmg"><img src="assets/readme/download-button.png" alt="Download Resume Bar for Mac" width="264"></a>
+
+Free and open source · everything stays on your Mac · [release notes and checksum](https://github.com/porco-rs/resume-bar/releases/latest)
 
 Needs macOS 26 or later on Apple silicon, Claude Code or Codex, and Ghostty or Terminal.
-
-<!-- Delete this note on release day. -->
-> The first signed release isn't out yet. Choose **Watch → Custom → Releases** at the top of this page and GitHub tells you when it lands, or [build it yourself](#build-it-yourself) today.
 
 ---
 
@@ -69,7 +68,7 @@ A keyboard tool only pays off once the keys stop being something you look up. `�
 
 ## Your first minute
 
-1. **Download** the DMG from [Releases](https://github.com/porco-rs/resume-bar/releases), open it, and drag Resume Bar to Applications.
+1. **[Download the DMG](https://github.com/porco-rs/resume-bar/releases/latest/download/ResumeBar.dmg)**, open it, and drag Resume Bar to Applications.
 
 2. **Open it.** You get one optional question. **Accessibility** lets `⇧⌘R` read the line you've selected in the terminal, so you can name a thread by pointing at it. It reads that line only when you press those keys. Press `esc` to skip it, and everything else still works.
 
@@ -83,7 +82,7 @@ A keyboard tool only pays off once the keys stop being something you look up. `�
 
 From then on it starts when you log in, so it's already there on Monday morning. If you'd rather it weren't, remove it under System Settings › General › Login Items & Extensions, and it stays removed.
 
-Official releases come only from [this repository's releases](https://github.com/porco-rs/resume-bar/releases), signed by Leon Vincent Schwahn.
+Official releases come only from [this repository's releases](https://github.com/porco-rs/resume-bar/releases), signed by Leon Schwahn.
 
 <details>
 <summary>Check it before you trust it</summary>

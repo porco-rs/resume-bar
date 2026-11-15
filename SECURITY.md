@@ -29,7 +29,7 @@ Each way in and how it is closed: [threat model](THREAT_MODEL.md).
 
 ## Official downloads
 
-Official releases come only from [the releases of this repository](https://github.com/porco-rs/resume-bar/releases). They are signed with Developer ID by Leon Vincent Schwahn, team `DLYUZB2S4C`, and notarized by Apple. Notarization is an automated check, not a promise that software is safe. Check any copy with:
+Official releases come only from [the releases of this repository](https://github.com/porco-rs/resume-bar/releases). They are signed with Developer ID by Leon Schwahn, team `DLYUZB2S4C`, and notarized by Apple. Notarization is an automated check, not a promise that software is safe. Check any copy with:
 
 ```sh
 codesign -dv /Applications/ResumeBar.app
